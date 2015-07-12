@@ -283,6 +283,8 @@ public class SetEkrani extends Activity {
 			      
 			}
 		});
+		
+		Log.i("Zaferr abi","selam çek");
 		Log.i("hataaaa", "3");
 		calismaSuresi=(EditText)findViewById(R.id.editText2);
 		calismaSuresi.setText(""+sp.getInt("calismaSuresi", 0));

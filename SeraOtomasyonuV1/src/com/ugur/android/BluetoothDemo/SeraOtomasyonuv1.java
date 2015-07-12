@@ -391,7 +391,9 @@ public class SeraOtomasyonuv1 extends Activity {
             if (mChatService.getState() != BluetoothDemoService.STATE_CONNECTED) {
             	Log.i("gönderme fonksiyonunda", "2");
                 Toast.makeText(this, R.string.not_connected, Toast.LENGTH_SHORT).show();
+                Log.i("zms","zms ");
                 return;
+                
             }
 
             // Check that there's actually something to send
