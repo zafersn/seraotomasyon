@@ -26,11 +26,11 @@
  Pi_CAR| V2 | V1
 ------------ | -------------|-------
 **COMMUNICATION** |UDP |TCP
-**RANGE** | (It changes according to "WiFi Dongle") 10m -- Motion| (It changes according to "WiFi Dongle" ) 10m --Constant
+**RANGE** |(It changes according to "WiFi Dongle") 10m -- Motion|(It changes according to "WiFi Dongle") 10m --Constant
 **CONTROL**|ANDROID|ANDROID
 **CAMERA**|THERE IS|THERE IS
 **SETUP**|Through the ".img" file |Manual installation
-# Innovation coming with "v2"
+# Innovation coming with "V2"
 * Ability to connect directly to the vehicle,Connect and use hotspots created on the vehicle without being connected to a fixed Wifi mode (Created hotspot on Raspberry Pi).
 * Improvement in vehicle and telephone communication software.
 * In Android App, link signal level indicator added and software improved
