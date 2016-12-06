@@ -26,15 +26,15 @@
  Pi_CAR| V2 | V1
 ------------ | -------------|-------
 **COMMUNICATION** |UDP |TCP
-**RANGE** | (WiFi Dongle göre değişir) 10m -- HAREKETLİ| (WiFi Dongle göre değişir ) 10m --SABİT
+**RANGE** | (It changes according to "WiFi Dongle") 10m -- Motion| (It changes according to "WiFi Dongle" ) 10m --Constant
 **CONTROL**|ANDROID|ANDROID
-**CAMERA**|VAR|VAR
-**SETUP**|.img dosyası üzerinden |Elle kurulum
-# What's new with "V2"
-* Doğrudan araca bağlanabilme,sabit bir Wi-Fi modeme bağlı kalmadan araç üstünde oluşturulan hotspot'a bağlanabilme ve kullanabilme (Raspberry pi üzerinde hotspot oluşturuldu).
-* Araç ile telefon haberleşme yazılımında iyileştirme
-* Android Uygulamada, bağlantı sinyal seviyesi göstergesi eklendi ve yazılımda iyileştirme yapıldı
-* Kurulum kolaylığı sağlandı.(Doğrudan .img dosyasını sd karta yazarak çalıştırabilirsiniz.)<br>
+**CAMERA**|THERE IS|THERE IS
+**SETUP**|Through the ".img" file |Manual installation
+# Innovation coming with "v2"
+* Ability to connect directly to the vehicle,Connect and use hotspots created on the vehicle without being connected to a fixed Wifi mode (Created hotspot on Raspberry Pi).
+* Improvement in vehicle and telephone communication software.
+* In Android App, link signal level indicator added and software improved
+* Installation is facilitated (You can run the ".img" file directly by typing in the sd card.)<br>
 
 #--------------------------------V2--------------------------------
 <br><br><br>
