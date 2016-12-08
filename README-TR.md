@@ -13,7 +13,7 @@ Arduino Nano| 1
 Raspberry Pi| 1
 Raspberry Pi Camera Modülü| 1
 Wi-Fi Adaptör| 1
-L298N Motor Sürücü| 1 yada 2 
+L298N,BTS7960,L293 Motor Sürücü| 1 yada 2 
 DC MOTOR|  2  yada   4
 12V Lipo Batarya| 1
 Jumper Kablo | ~
