@@ -20,8 +20,10 @@
 
 #--------------------------------V1--------------------------------
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/wifi_rasp%20to%20android2.png)
+# Türkçe açıklama ve kurulum bilgileri için, [Buraya tıklayın!](README-TR.md) 
 
-# ENGLISH------------------------
+<br><br><br><br><br><br>
+# ---------------------------------ENGLISH------------------------
 #Differences between V2 and V1
 
  Pi_CAR| V2 | V1
@@ -38,6 +40,12 @@
 * Installation is facilitated (You can run the ".img" file directly by typing in the sd card.)<br>
 
 #--------------------------------V2--------------------------------
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/rasp%20to%20android2.png)
 <br><br><br>
 
 #--------------------------------V1--------------------------------
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/wifi_rasp%20to%20android2.png)
+
+# For English description and setup information, [Click here!](README-EN.md)  <br><br>
+
+ 
