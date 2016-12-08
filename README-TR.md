@@ -1,7 +1,7 @@
 # RASPBERRY PI- ARDUINO ANDROID-CONTROLLED RC-CAR ROVER WITH LIVE VIDEO STREAMING
 # ----------------------------- Pi_CAR -----------------------------
 
-[![Screen Shot](images/yotubeT1.png)](https://youtu.be/J8r_bX_RNzU)
+[![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/yotubeT1.png)](https://youtu.be/J8r_bX_RNzU)
 
 
 ## Kullanılan Malzemeler
@@ -75,7 +75,7 @@
 Raspberry pi kurulumu oldukça basittir.Öncelikle,
 
 Win32DiskImager SD karta işletim sistemi yazdırmamız için gerekli olan programdır.
-İndirmek için ![Tıklayınız](http://www.gezginler.net/indir/win32-disk-imager.html)
+İndirmek için [**Tıklayınız**](http://www.gezginler.net/indir/win32-disk-imager.html)
 
 ## 1. Raspbian İşletim Sistemi İndirme;
 Raspberry pi mize kuracağımız araç kontrol yazılımlarınıda içinde bulunduran işletim sistemini SD karta yazdımamız gerekmektedir.Burada DİKKAT edilmesi gereken nokta aşağıda linkleri verilen işletim sistemleri seçerken elinizde bulunan Wi-Fi adaptörlere göre 
@@ -105,12 +105,12 @@ Desteklenen diğer cipsetler ve cihazlar için detalı bilgi:http://elinux.org/R
 ## 2. İşletim Sistemini Micro-SD Kart’a Yazdırma
 İndirdiğimiz imaj dosyasını zip içerisinden çıkarıyoruz. Ardından daha önce indirdiğimiz win32diskImager programını açıyoruz. İmaj dosyamızı belirtilen yerden seçiyoruz.
 
-[![Screen Shot](images/yotubeT1.png)](https://youtu.be/J8r_bX_RNzU)
+[![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/win32diskimager.jpg)]
 
 Sd kartınızın bilgisayara takılı olduğundan emin olduktan sonra Device kısmında görebilirsiniz. Ardından Write butonuna tıklayıp yazma işlemini başlatıyoruz. Yazma işlemi yaklaşık 2-3 dk sürmektedir. Yazma işleminin bitmesini yeni açılan pencerede "Write Succesful." yazısını görene kadar bekleyiniz.
 
 
-[![Screen Shot](images/yotubeT1.png)](https://youtu.be/J8r_bX_RNzU)
+[![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/Write%20Succesful.png)]
 ## 3.Bağlantılar ve Çalıştırma
 
 Yazma işlemi tamamlandıktan sonra SD kartınızı bilgisayardan çıkartıp Raspberry pi'nize takabilirsiniz.
