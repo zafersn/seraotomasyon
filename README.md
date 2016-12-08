@@ -15,10 +15,11 @@
 * Kurulum kolaylığı sağlandı.(Doğrudan .img dosyasını sd karta yazarak çalıştırabilirsiniz.)<br>
 
 #--------------------------------V2--------------------------------
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/rasp%20to%20android2.png)
 <br><br><br>
 
 #--------------------------------V1--------------------------------
-
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/wifi_rasp%20to%20android2.png)
 
 # ENGLISH------------------------
 #Differences between V2 and V1
