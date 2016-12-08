@@ -5,15 +5,20 @@
 
 
 ## Kullanılan Malzemeler
-* Arduino Nano
-* Raspberry Pi
-* Raspberry Pi Camera Modülü
-* Wi-Fi Adaptör 
-* L298N Motor Sürücü
-* DC MOTOR X  2  YA DA   X     4
-* 12V Lipo Batarya
-* Jumper Kablo 
-* Araç Şasi (Gövdesi)
+<br>
+
+Malzeme Adı| Adet
+----| ---- 
+Arduino Nano| 1
+Raspberry Pi| 1
+Raspberry Pi Camera Modülü| 1
+Wi-Fi Adaptör| 1
+L298N Motor Sürücü| 1 yada 2 
+DC MOTOR|  2  yada   4
+12V Lipo Batarya| 1
+Jumper Kablo | ~
+Araç Şasi (Gövdesi)| 1
+<br>
 
 ## Arduino:
 ### AMAÇ VE GÖREVLER:
