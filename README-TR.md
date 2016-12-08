@@ -123,7 +123,7 @@ Artık yapmanız gereken SADECE Raspberry' nize USB üzerinde bir Arduino takıp
 <br>
 Video'lu anlatım: 
 <br>
-![Screen Shot](images/yotubeT1.png)](https://youtu.be/yNLug0DhQlc)
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/youtube%20play.png)](https://youtu.be/yNLug0DhQlc)
 
 ## ANDROID:
 
