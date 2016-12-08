@@ -120,3 +120,60 @@ Video'lu anlatım:
 <br>
 [![Screen Shot](images/yotubeT1.png)](https://youtu.be/J8r_bX_RNzU)
 
+## ANDROID:
+
+### AMAÇ VE GÖREVLERİ:
+* Raspberry pi ve arduino ile yapılmış olan rc-arabanın kontrolünü sağlamak.
+* Kullanıcı için sade ve kolay görsel arayüz.
+* Raspberry pi üzerinden kamera görüntüsünü alarak kullanıcıya göstermek.
+
+### ANDROID UYGULAMA KURULUMU:
+* Aracın kontrolü için iki adet uygulama mevcuttur.Bunlar demo ve pro sürümleridir.Demo ve Pro sürümleri arasında uygulamada kullanılan özellikler bakımından hiç bir fark yoktur.Sadece demo sürümde uygulamanın kullanım adeti sınırlaması bulunmaktadır.Bu kullanım adedi minimum 30 adet olarak belirlenmiş olup admin tarafından attırılabilir ve ya azaltılabilir.(Not: Uygulamanın kullanım adedinin hesaplanmasında uygulamaya girdi-çıktı sayısına göre değil, Aracın android uygulama tarafından başarılı bir şekilde  kontrol edilmesi,bağlanılması durumu kullanılır.Bu durumda kullanım adedinin artması için sistemin bir bütün olarak çalışması gerekmektedir.Gönül rahatlığıyla uygulama indirilebilir ve sistem ücretsiz olarak kullanılabilir.)
+* Yukarıdaki durum göz önüne alındığında gerekli uygulamanın kurulumu son derece basittir. Sadece yapılması gereken **ANDROID GOOGLE PLAY** markette giriş yapıldıktan sonra arama kutucuğuna, uygulamaya doğrudan erişmek için `com.stackcuriosity.tooght` ve ya uygulama ismi `RC CONTROLLER WITH CAMERA` yazmanız yeterlidir.
+### UYGULAMA KULLANIMI VE İPUCULARI
+#### Raspberry pi bağlantı bilgileri
+* Android uygulamanızı indirdikten sonra sizi aşağıdaki gibi bir ekran karşılayacaktır.Artık yapmanız gereken şey sadece aracı kontrol etmek olacaktır.
+<br>
+[![Screen Shot](images/yotubeT1.png)](https://youtu.be/J8r_bX_RNzU)
+
+Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
+
+#### UYGULAMA DETAYLARI
+
+##### 1. GÖRSEL ARAYÜZÜN AÇIKLANMASI VE PROGRAMLAMA MANTIĞI
+* **Uygulamamız 3 temel esasa dayanmaktadır.** Bunlar;
+  1. Aracın yön kontrolünün sağlanması.<br>
+  2. Kullanıcıya araç üzerindeki kameradan canlı görüntünün aktarılması.<br>
+  3. Fallow Me (Çok yakında).(Aracın sahibini takip etmesi).<br>
+* Bu üç temel esasa göre 
+*  Aracın yön kontrolünde kullanılan mantığın ana detaylarını `Arduino` bölümde anlattık.Android tarafına bakan kısmı ile açıklayacak olursak.Android tarafında, kullanıcı için `Seek bar (Hız ayarı)` ve `Yön tuşları` mevcuttur.<br> ![Screen Shot](images/kontrol_ekrani_anlatim.png)<br>
+*  **Seek bar(Hız ayarı)** 15 dilimden oluşmaktadır ve hız katsayısı 17'dir.Yani seek bar' ın herbir hareketi pwm'de 17'nin katları şeklinde bir oynama yapmaktadır.Seek bar 5. kademede ise üretilen pwm= 5*17 = 85 'tir.
+*  **Menü tuşları (Kamera Aç/Kapa ve WiFi Göstergesi)** Seekbar 'ın yanında yer alan diğer araç kontrol fonksyonları;<br> Kamera görüntüsünü araç üzerinden almamıza yarayan Kamera açma ve kapatma butonu  ![Screen Shot](images/kontrol_ekrani_anlatim.png)<br>, Aynı şekilde uygulamamızın Raspberry Pi üzerinde oluşturduğumuz Wi-Fi ağa bağlanıp bağlanılmadığını gösteren bir göstergedir. ![Screen Shot](images/kontrol_ekrani_anlatim.png)<br>
+*  **Yön tuşları** seek bar(Hız ayarı)'dan alınan verinin yönlere ayrılmasını sağlar. Aracın gidiş yönüne göre pwm değerinin başına `+` ve ya `-` işareti getirilir. **Örn;**<br><br>
+ 200:200     // ileri git. ( 2 motorda 200pwm ile çalışır )<br>
+ -200:-200   //geri git. (2 motorda 200pwm ile çalışır)<br>
+ 200:-200   // sol motor 200 pwm ileri, sag motor 200 geri döner ( araç kendi etrafında soldan sağa doğru döner)<br>
+ -200:200   // sol motor 200 pwm geri, sag motor 200 ileri döner ( araç kendi etrafında sağdan sola doğru döner)<br>
+ 200:100    // araç sağa dönecek şekilde hareket eder.<br><br> 
+
+##### 2.SAĞ'A VE SOL'A DÖNÜŞLERDE HASSASİYET
+* Aracımızın sağ çağraz ve sol çapraz hareketleri yaparken dönüş yapılacak taraftaki motorların pwm değerleri düşürülür ve böylece motorların daha yavaş dönmesi sağlanır.Bu sayede araç istenilen hassasiyette çarpraz dönüşleri gerçekleştirebilir.**Bu dönüş hareketlerinin hassasiyet ayarlaması kullanıcıya bırakılmıştır.**
+* Çapraz dönüşlerin hassasiyetinin hesaplanmasında kullanılan formül : **`PWM DEĞERİ - (PWM DEĞERİ / PWM ORANI)`** 'dır.
+* PWM ORANI varsayılan olarak `2` gelmektedir.
+* PWM ORANI ayarını, kontrol ekranın da sağ üst köşede `Ayarlar` butonundan tekrar `Ayarlar` sekmesine basarak ulaşabilirsiniz.<br>![Screen Shot](images/device-2016-07-07-230804.png)<br>![Screen Shot](images/device-2016-07-07-230848.png)<br><br>
+* Girebileceğinz PWM ORANI aralığı **minimum ve maksimum olarak 1-4 arasında integer ve double tipinde** değerlerdir.
+ 
+
+
+### UYGULAMA ICON 'UMUZ:
+
+![Screen Shot](images/raspi_car.png)
+
+
+
+
+## TEST VİDEO:
+[![Screen Shot](images/testvd1.png)](https://youtu.be/qbkH2KFcKqw)
+
+
+
