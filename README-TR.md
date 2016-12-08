@@ -93,8 +93,14 @@ Raspberry pi 3 için 2 alternatif yöntemimiz vardır;<br>
 2. Harici olarak USB Wi-Fi adaptör kullanmak(Tavsiye edilen yöntemdir.Mesafe ve veri hızı bakımından. Tabi bu kullanacağınız Wi-Fi adaptöre göre değişebilir.)
 <br>
 
-### 1.Pi_CAR'I raspberry pi Üzerindeki dahili Wi-Fi modülü kullanarak yönetmek istiyorsanız.Bu linkteki işletim sistemini indirerek SD karta yazdırınız.
-### 2.Pi_CAR'I raspberry pi Üzerinden harici olarak taktığınız Wi-Fi modüşü kullarak yönetmek istiyorsanız.Bu linkteki işletim sistemini indiriniz.
+### 1.Pi_CAR'I Raspberry pi 2 için ve  raspberry pi 3'ün Üzerindeki dahili Wi-Fi modülü kullanarak yönetmek istiyorsanız.Bu [**linteki**](https://drive.google.com/file/d/0B6yjwSAqPTgfX1dsaVVJZThEN2c/view?usp=sharing) işletim sistemini indirerek SD karta yazdırınız.
+
+
+
+### 2.Pi_CAR'I raspberry pi Üzerinden harici olarak taktığınız Wi-Fi modüşü kullarak yönetmek istiyorsanız.Bu [**linteki**](https://drive.google.com/file/d/0B6yjwSAqPTgfYkhxWEN2dXBIQlU/view?usp=sharing) işletim sistemini indiriniz.
+
+
+
 Bu seçenek için elimizde bulunan ve test ettiğimiz Wi-Fi cihazları ve çipsetleri
 <br>
 
