@@ -92,10 +92,14 @@ Raspberry pi 3 için 2 alternatif yöntemimiz vardır;<br>
 ### 1.Pi_CAR'I raspberry pi Üzerindeki dahili Wi-Fi modülü kullanarak yönetmek istiyorsanız.Bu linkteki işletim sistemini indirerek SD karta yazdırınız.
 ### 2.Pi_CAR'I raspberry pi Üzerinden harici olarak taktığınız Wi-Fi modüşü kullarak yönetmek istiyorsanız.Bu linkteki işletim sistemini indiriniz.
 Bu seçenek için desteklenen Wi-Fi çipsetleri ve test edilen cihazlar
-|Test Edilen cihazlar|CHIPSET
-|Dark WDN300A5|RTL8192CU
-|Tenda UH150 |RT2870/RT3070
-|AWUS036NH|RT2870/RT3070
+<br>
+
+Test Edilen cihazlar|CHIPSET
+---------- | --------
+Dark WDN300A5 | RTL8192CU
+Tenda UH150 | RT2870/RT3070
+AWUS036NH | RT2870/RT3070
+<br>
 
 Desteklenen diğer cipsetler ve cihazlar için detalı bilgi:http://elinux.org/RPi_USB_Wi-Fi_Adapters
 
@@ -111,4 +115,4 @@ Sd kartınızın bilgisayara takılı olduğundan emin olduktan sonra Device kı
 ## 3.Bağlantılar ve Çalıştırma
 
 Yazma işlemi tamamlandıktan sonra SD kartınızı bilgisayardan çıkartıp Raspberry pi'nize takabilirsiniz.
-Artık yapmanız gereken SADECE Raspberry pinize USB üzerinde bir Arduino takıp  araca monte etmenizdir.
+Artık yapmanız gereken SADECE Raspberry' nize USB üzerinde bir Arduino takıp  gerekli güç ve motor sürücüleri bağlantılarını yapıp araca monte etmenizdir.
