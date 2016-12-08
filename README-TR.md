@@ -180,6 +180,6 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 
 ## TEST VİDEO:
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/testvd1.png)](https://youtu.be/qbkH2KFcKqw)
-[![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/play_video.png)](https://youtu.be/CT-hgXIPRIk)
+[![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/play_video2.png)](https://youtu.be/CT-hgXIPRIk)
 
 
