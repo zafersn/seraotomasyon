@@ -123,7 +123,7 @@ Artık yapmanız gereken SADECE Raspberry' nize USB üzerinde bir Arduino takıp
 <br>
 Video'lu anlatım: 
 <br>
-![Screen Shot](images/yotubeT1.png)](https://youtu.be/J8r_bX_RNzU)
+![Screen Shot](images/yotubeT1.png)](https://youtu.be/yNLug0DhQlc)
 
 ## ANDROID:
 
