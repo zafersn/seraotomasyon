@@ -129,7 +129,9 @@ Video'lu anlatım:
 
 ### ANDROID UYGULAMA KURULUMU:
 * Uygulamanın kurulumu son derece basittir. Sadece yapılması gereken **ANDROID GOOGLE PLAY** markette giriş yapıldıktan sonra arama kutucuğuna, uygulamaya doğrudan erişmek için `com.stackcuriosity.tooght` ve ya uygulama ismi `RC CONTROLLER WITH CAMERA` yazmanız yeterlidir.<br>
-### UYGULAMA KULLANIMI VE İPUCULARI <br>
+
+### UYGULAMA KULLANIMI VE İPUCULARI  <br>
+
 #### Raspberry pi bağlantı bilgileri
 * Android uygulamanızı indirdikten sonra sizi aşağıdaki gibi bir ekran karşılayacaktır.Artık yapmanız gereken şey sadece aracı kontrol etmek olacaktır.
 <br>
