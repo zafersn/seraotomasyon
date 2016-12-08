@@ -91,7 +91,7 @@ Raspberry pi 3 için 2 alternatif yöntemimiz vardır;<br>
 
 ### 1.Pi_CAR'I raspberry pi Üzerindeki dahili Wi-Fi modülü kullanarak yönetmek istiyorsanız.Bu linkteki işletim sistemini indirerek SD karta yazdırınız.
 ### 2.Pi_CAR'I raspberry pi Üzerinden harici olarak taktığınız Wi-Fi modüşü kullarak yönetmek istiyorsanız.Bu linkteki işletim sistemini indiriniz.
-Bu seçenek için desteklenen Wi-Fi çipsetleri ve test edilen cihazlar
+Bu seçenek için elimizde bulunan ve test ettiğimiz Wi-Fi cihazları ve çipsetleri
 <br>
 
 Test Edilen cihazlar|CHIPSET
@@ -116,3 +116,8 @@ Sd kartınızın bilgisayara takılı olduğundan emin olduktan sonra Device kı
 
 Yazma işlemi tamamlandıktan sonra SD kartınızı bilgisayardan çıkartıp Raspberry pi'nize takabilirsiniz.
 Artık yapmanız gereken SADECE Raspberry' nize USB üzerinde bir Arduino takıp  gerekli güç ve motor sürücüleri bağlantılarını yapıp araca monte etmenizdir.
+<br>
+Video'lu anlatım: 
+<br>
+[![Screen Shot](images/yotubeT1.png)](https://youtu.be/J8r_bX_RNzU)
+
