@@ -105,12 +105,12 @@ Desteklenen diğer cipsetler ve cihazlar için detalı bilgi:http://elinux.org/R
 ## 2. İşletim Sistemini Micro-SD Kart’a Yazdırma
 İndirdiğimiz imaj dosyasını zip içerisinden çıkarıyoruz. Ardından daha önce indirdiğimiz win32diskImager programını açıyoruz. İmaj dosyamızı belirtilen yerden seçiyoruz.
 
-[![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/win32diskimager.jpg)
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/win32diskimager.jpg)
 
 Sd kartınızın bilgisayara takılı olduğundan emin olduktan sonra Device kısmında görebilirsiniz. Ardından Write butonuna tıklayıp yazma işlemini başlatıyoruz. Yazma işlemi yaklaşık 2-3 dk sürmektedir. Yazma işleminin bitmesini yeni açılan pencerede "Write Succesful." yazısını görene kadar bekleyiniz.
 
 
-[![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/Write%20Succesful.png)
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/Write%20Succesful.png)
 ## 3.Bağlantılar ve Çalıştırma
 
 Yazma işlemi tamamlandıktan sonra SD kartınızı bilgisayardan çıkartıp Raspberry pi'nize takabilirsiniz.
@@ -118,7 +118,7 @@ Artık yapmanız gereken SADECE Raspberry' nize USB üzerinde bir Arduino takıp
 <br>
 Video'lu anlatım: 
 <br>
-[![Screen Shot](images/yotubeT1.png)](https://youtu.be/J8r_bX_RNzU)
+![Screen Shot](images/yotubeT1.png)](https://youtu.be/J8r_bX_RNzU)
 
 ## ANDROID:
 
@@ -128,12 +128,12 @@ Video'lu anlatım:
 * Raspberry pi üzerinden kamera görüntüsünü alarak kullanıcıya göstermek.
 
 ### ANDROID UYGULAMA KURULUMU:
-* Uygulamanın kurulumu son derece basittir. Sadece yapılması gereken **ANDROID GOOGLE PLAY** markette giriş yapıldıktan sonra arama kutucuğuna, uygulamaya doğrudan erişmek için `com.stackcuriosity.tooght` ve ya uygulama ismi `RC CONTROLLER WITH CAMERA` yazmanız yeterlidir.
+* Uygulamanın kurulumu son derece basittir. Sadece yapılması gereken **ANDROID GOOGLE PLAY** markette giriş yapıldıktan sonra arama kutucuğuna, uygulamaya doğrudan erişmek için `com.stackcuriosity.tooght` ve ya uygulama ismi `RC CONTROLLER WITH CAMERA` yazmanız yeterlidir.<br>
 ### UYGULAMA KULLANIMI VE İPUCULARI
 #### Raspberry pi bağlantı bilgileri
 * Android uygulamanızı indirdikten sonra sizi aşağıdaki gibi bir ekran karşılayacaktır.Artık yapmanız gereken şey sadece aracı kontrol etmek olacaktır.
 <br>
-[![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/Screenshot_20161208-155537.png)
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/Screenshot_20161208-155537.png)
 
 Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 
