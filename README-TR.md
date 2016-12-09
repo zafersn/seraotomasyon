@@ -83,8 +83,8 @@ Win32DiskImager SD karta işletim sistemi yazdırmamız için gerekli olan progr
 İndirmek için [**Tıklayınız**](http://www.gezginler.net/indir/win32-disk-imager.html)
 
 ## 1. Raspbian İşletim Sistemi İndirme;
-Raspberry pi mize kuracağımız araç kontrol yazılımlarınıda içinde bulunduran işletim sistemini SD karta yazdımamız gerekmektedir.Burada DİKKAT edilmesi gereken nokta aşağıda linkleri verilen işletim sistemleri seçerken elinizde bulunan Wi-Fi adaptörlere göre 
-işletim sistemini indirmeniz ve sd karta yazdırmalısınız.İşletim sistemleri ve destekdikleri modemler aşağıda verilmektedir.
+Raspberry pi mize kuracağımız araç kontrol yazılımlarınıda içinde bulunduran işletim sistemini SD karta yazdımamız gerekmektedir.Burada DİKKAT edilmesi gereken nokta, aşağıda linkleri verilen işletim sistemleri seçerken elinizde bulunan Wi-Fi adaptörlere göre 
+işletim sistemini indirmeniz ve sd karta yazdırmanızdır.İşletim sistemleri ve destekdikleri modemler aşağıda verilmektedir.
 
 ### Raspberry Pi 3  İçin indirilebilir işletim sistemi
 Raspberry pi 3 için 2 alternatif yöntemimiz vardır;<br>
