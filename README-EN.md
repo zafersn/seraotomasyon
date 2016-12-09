@@ -72,55 +72,56 @@ Example:<br>
 * Connection between Arduino and Android phone.
 
 ### RASPBERRY PI SETUP:
-Raspberry pi setup is quite simple. First, <nr>
+Raspberry pi setup is quite simple. First, <br>
 Win32DiskImager is the program that is required to print the operating system to the SD card.  [**Click**](http://www.gezginler.net/indir/win32-disk-imager.html) to download
 
 ## 1. Raspbian Operating System Downloads;
-Raspberry pi mize kuracağımız araç kontrol yazılımlarınıda içinde bulunduran işletim sistemini SD karta yazdımamız gerekmektedir.Burada DİKKAT edilmesi gereken nokta aşağıda linkleri verilen işletim sistemleri seçerken elinizde bulunan Wi-Fi adaptörlere göre 
-işletim sistemini indirmeniz ve sd karta yazdırmalısınız.İşletim sistemleri ve destekdikleri modemler aşağıda verilmektedir.
-
+We will need to write the  the   operating system contains vehicle control software.The point to be noted here is that when selecting the operating systems listed below, download it according to the Wi-Fi module in your hand and print it to the sd card.Modems supported by Operating Systems and Operating Systems are given below.
+<br>
 ### Downloadable operating system for Raspberry Pi 3
-Raspberry pi 3 için 2 alternatif yöntemimiz vardır;<br>
+We have 2 alternative methods for Raspberry pi 3;<br>
 
-1. si doğrudan raspberry pi üzerindeki Wi-Fi kullanmak. <br>
-2. Harici olarak USB Wi-Fi adaptör kullanmak(Tavsiye edilen yöntemdir.Mesafe ve veri hızı bakımından. Tabi bu kullanacağınız Wi-Fi adaptöre göre değişebilir.)
+1. Using built-in Wi-Fi directly on Raspberry Pi. <br>
+2. Using an external USB Wifi adapter.(It is the recommended method for distance and data speed. Of course this will vary depending on the Wi-Fi adapter you use.)
 <br>
 
-### 1.If you want to manage Pi_CAR via Raspberry pi 2 or  the built-in Wi-Fi module on the Raspberry Pi 3.Bu [**linteki**](https://drive.google.com/file/d/0B6yjwSAqPTgfX1dsaVVJZThEN2c/view?usp=sharing) işletim sistemini indirerek SD karta yazdırınız.
+### 1.If you want to manage Pi_CAR via Raspberry pi 2 or  the built-in Wi-Fi module on the Raspberry Pi 3.Download the operating system on [**this link**](https://drive.google.com/file/d/0B6yjwSAqPTgfX1dsaVVJZThEN2c/view?usp=sharing)  and print to the SD card.
 
 
 
-### 2.Pi_CAR'I Raspberry pi 3 'ün  Üzerinden harici olarak taktığınız Wi-Fi modüşü kullarak yönetmek istiyorsanız.Bu [**linteki**](https://drive.google.com/file/d/0B6yjwSAqPTgfYkhxWEN2dXBIQlU/view?usp=sharing) işletim sistemini indiriniz.
+### 2.If you want to manage Pi_CAR by using Wi-Fi module externally mounted on raspberry pi 3. Download the operating system on [**this link**](https://drive.google.com/file/d/0B6yjwSAqPTgfYkhxWEN2dXBIQlU/view?usp=sharing)  and print to the SD card.
 
 
 
-Bu seçenek için elimizde bulunan ve test ettiğimiz Wi-Fi cihazları ve çipsetleri
+Wi-Fi devices and chipsets we have available and tested for this option  
+<br> Hangisini kullanayım sülo <br>
+For this option, we have avaible and tested wifi devces and chipsets.
 <br>
 
-Test Edilen cihazlar|CHIPSET
+Tested Devices|Chipsets
 ---------- | --------
 Dark WDN300A5 | RTL8192CU
 Tenda UH150 | RT2870/RT3070
 AWUS036NH | RT2870/RT3070
 <br>
 
-Desteklenen diğer cipsetler ve cihazlar için detalı bilgi:http://elinux.org/RPi_USB_Wi-Fi_Adapters
+Detailed information for other supported chipsets and devices:http://elinux.org/RPi_USB_Wi-Fi_Adapters
 
-## 2. İşletim Sistemini Micro-SD Kart’a Yazdırma
-İndirdiğimiz imaj dosyasını zip içerisinden çıkarıyoruz. Ardından daha önce indirdiğimiz win32diskImager programını açıyoruz. İmaj dosyamızı belirtilen yerden seçiyoruz.
+## 2. Printing Operating System to Micro-SD Card
+We extract the downloaded image file from within the zip.Then we open the Win32DiskImager program we downloaded earlier. We choose our img file from the specified location.
 
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/win32diskimager.jpg)
 
-Sd kartınızın bilgisayara takılı olduğundan emin olduktan sonra Device kısmında görebilirsiniz. Ardından Write butonuna tıklayıp yazma işlemini başlatıyoruz. Yazma işlemi yaklaşık 2-3 dk sürmektedir. Yazma işleminin bitmesini yeni açılan pencerede "Write Succesful." yazısını görene kadar bekleyiniz.
+Once you are sure your Sd card is connected to the computer, you can see it in the Devices section. Then click on the write button and start burning. The writing process takes about 5-7 minutes. The completion of the writing process is indicated by the newly opened window "Write Successfull." Wait until you see the article.
 
 
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/Write%20Succesful.png)
-## 3.Bağlantılar ve Çalıştırma
+## 3.Connections and Operation
 
-Yazma işlemi tamamlandıktan sonra SD kartınızı bilgisayardan çıkartıp Raspberry pi'nize takabilirsiniz.
+After the writing process is completed, you can remove your SD card from the computer and insert it into the Raspberry.
 Artık yapmanız gereken SADECE Raspberry' nize USB üzerinde bir Arduino takıp  gerekli güç ve motor sürücüleri bağlantılarını yaptıktan sonra araca monte etmenizdir.
 <br>
-Video'lu anlatım: 
+Video description:
 <br>
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/youtube%20play2.png)](https://youtu.be/yNLug0DhQlc)
 
