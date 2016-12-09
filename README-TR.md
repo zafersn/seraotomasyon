@@ -89,8 +89,8 @@ işletim sistemini indirmeniz ve sd karta yazdırmanızdır.İşletim sistemleri
 ### Raspberry Pi 3  İçin indirilebilir işletim sistemi
 Raspberry pi 3 için 2 alternatif yöntemimiz vardır;<br>
 
-1. si doğrudan raspberry pi üzerindeki Wi-Fi kullanmak. <br>
-2. Harici olarak USB Wi-Fi adaptör kullanmak(Tavsiye edilen yöntemdir.Mesafe ve veri hızı bakımından. Tabi bu kullanacağınız Wi-Fi adaptöre göre değişebilir.)
+1. si doğrudan raspberry pi üzerindeki dahili Wi-Fi kullanmak. <br>
+2. Harici olarak USB Wi-Fi adaptör kullanmak(Mesafe ve veri hızı bakımından tavsiye edilen yöntemdir. Tabi bu kullanacağınız Wi-Fi adaptöre göre değişebilir.)
 <br>
 
 ### 1.Pi_CAR'I Raspberry pi 2 için ya da  raspberry pi 3'ün Üzerindeki dahili Wi-Fi modülü kullanarak yönetmek istiyorsanız.Bu [**linteki**](https://drive.google.com/file/d/0B6yjwSAqPTgfX1dsaVVJZThEN2c/view?usp=sharing) işletim sistemini indirerek SD karta yazdırınız.
