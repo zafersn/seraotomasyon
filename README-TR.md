@@ -111,7 +111,7 @@ Tenda UH150 | RT2870/RT3070
 AWUS036NH | RT2870/RT3070
 <br>
 
-Desteklenen diğer cipsetler ve cihazlar için detalı bilgi:http://elinux.org/RPi_USB_Wi-Fi_Adapters
+Desteklenen diğer çipsetler ve cihazlar için detaylı bilgi:http://elinux.org/RPi_USB_Wi-Fi_Adapters
 
 ## 2. İşletim Sistemini Micro-SD Kart’a Yazdırma
 İndirdiğimiz imaj dosyasını zip içerisinden çıkarıyoruz. Ardından daha önce indirdiğimiz win32diskImager programını açıyoruz. İmaj dosyamızı belirtilen yerden seçiyoruz.
