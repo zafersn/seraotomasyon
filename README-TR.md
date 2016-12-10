@@ -197,7 +197,7 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 <br><br>
 
 #KISA VE ÖZET KURULUM<br><br>
-<p align="center"> DETAYLI BİLGİ VE  VE KURULUM AYRINTILARI İÇİN LÜTFEN SAYFA BAŞINDAN BAŞLAYINIZ !!
+<p align="center"> <b>DETAYLI BİLGİ VE  VE KURULUM AYRINTILARI İÇİN LÜTFEN SAYFA BAŞINDAN BAŞLAYINIZ !!</b>
 <img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/raw.gif" alt="DETAYLI ANLATIM VE KURULUM" align="middle" />
 </p>
 
