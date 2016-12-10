@@ -190,8 +190,11 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/testvd1.png)](https://youtu.be/qbkH2KFcKqw)
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/play_video2.png)](https://youtu.be/CT-hgXIPRIk)
 <br><br>
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/raw.gif)
-DETAYLI ANLATIM VE KURULUM
+![Screen Shot]()
+<p align="center">
+<img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/raw.gif" alt="DETAYLI ANLATIM VE KURULUM" align="middle" />
+</p>
+
 -------------------------------------------------------------------------------------
 <br><br>
 
