@@ -125,5 +125,47 @@ Video description:
 <br>
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/youtube%20play2.png)](https://youtu.be/yNLug0DhQlc)
 
+## ANDROID:
 
+### PURPOSE AND MISSIONS:
+* Maintaining control of RC-Car that made from Android and Raspberry Pi.<br>
+* Simple and pure design for user.<br>
+* Taking video stream via Raspberry Pi and show this to user.<br>
 
+### INSTALL ANDROID APPLICATION:
+*  Installing of the application is very simple. Only after enter the **ANDROID GOOGLE PLAY** market, you can type in searching box `com.stackcuriosity.tooght` or application name `RC CONTROLLER WITH CAMERA` for directly access to application.<br><br>
+[![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/Google.png)](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght)
+
+### USING THE APPLICATION AND HINTS
+#### Raspberry Pi Connection Informations
+
+Once you've downloaded your Android app, you will see the following welcome : Now all you need to do is check the tool. screen.<br>
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/Screenshot_20161208-155537.png)
+<br>
+Let's briefly explain the working principle and the introduction of the application.
+#### APPLICATION DETAILS
+
+##### 1. EXPLAINING OF THE VISUAL DESIGN AND PROGRAMMING LOGIC
+**Our application rely on 4 basis. These are;**<br><br>
+ I. Provide direction control of the car.<br>
+ II. Transfer live video streaming from car to user.<br>
+ III. Connection signal level indicator of vehicle.<br>
+ IV. Follow Me (Vey Soon). (Following the car its owner.)<br>
+ 
+ * To that 4 basis;
+* Main details using direction control of the car was told in `Arduino` section. If we explain to the Android side, there will be available `Seek bar (Velocity setting)`, `Camera On / Off`,`Wi-Fi status indicator` and `Arrow keys`.<br><br> ![Screen Shot](images/device-2016-06-30-195734 english information.png)<br><br>
+*  **Seek bar(Velocity setting)**is created from 15 slice and velocity coefficient is 17. So any move of the Seek bar, there will be changing 17 and its multiples. For instance, If Seek bar in fifth order, produced pwm = 5*17 = 85.
+
+* **Menu keys (Camera On/Off and WiFi Indicator)** Other vehicle control functions beside Seekbar 'ın;<br> Camera on / off button for taking the camera image through the vehicle " ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/ic_eye.png) `Open` ", " ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/ic_eye_off.png) `CLOSE` ", In the same way, an indication of whether our application is connected to the Wi-Fi network we created on Raspberry Pi." ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/ic_wifi_on.png) NOT CONNECTED", " ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/ic_wifi_off.png) CONNECTED "
+
+* **Arrow keys** provide seperating directions of data which take from Seek bar(Velocity setting). For moving direction of the car, `+` or `-` sign come to head of the PWM value.<br>
+**For example:**
+
+ 200:200 // move forward. (2 motors work with 200pwm)<br>
+  200:-200 //move backward. (2 motors work with 200pwm)<br>
+ 200:-200 // left motor turns 200 pwm to forward, right motor turns 200 pwm to backward (The car turns its around from left to right.)<br>
+ 200:-200 // left motor turns 200 pwm to backward, right motor turns 200 pwm to forward (The car turns its around from right to left.)<br>
+ 200:100 // The car moves as turning to the right.<br><br>
+
+##### 2.SENSITIVITY IN TURNING LEFT AND RIGHT
+ 
