@@ -49,6 +49,12 @@ Example:<br>
 
 
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/youtbeT2.png)](https://youtu.be/D4ewbO-OGLY)
+<p align="center"> <b>L298 - Dual Full Bridge Driver</b>
+<img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/wificontrol.png"  />
+</p>
+<p align="center"> <b>BTS7960 - 43A MOTOR DRIVE</b>
+<img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/BTS7960%20fritzing2.png"  />
+</p>
 
 ![Screen shot WiFi Maunt](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/wificontrol.png)
 ![Screen shot WiFi Maunt](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/BTS7960%20fritzing2.png)
