@@ -167,7 +167,7 @@ Let's briefly explain the working principle and the introduction of the applicat
  200:-200 // left motor turns 200 pwm to backward, right motor turns 200 pwm to forward (The car turns its around from right to left.)<br>
  200:100 // The car moves as turning to the right.<br><br>
 
-##### **2.SENSITIVITY IN TURNING LEFT AND RIGHT**
+#### **2.SENSITIVITY IN TURNING LEFT AND RIGHT**
  * When our car moving to right cross and left cross, motors' PWM value which will be turning side decreases, and so this provides slower motor rotating. So, the car can achieve the intended turnings. **This rotating sensitivity setting let to user.**<br>
 * The formula for calculating cross turnings: **PWM VALUE - ((PWM VALUE) / PWM RATE)**<br>
 * In default, PWM RATE is `2`.<br>
