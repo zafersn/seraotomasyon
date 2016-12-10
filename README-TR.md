@@ -191,14 +191,16 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/play_video2.png)](https://youtu.be/CT-hgXIPRIk)
 <br><br>
 
-<p align="center"> DETAYLI BİLGİ VE  VE KURULUM AYRINTILARI İÇİN LÜTFEN SAYFA BAŞINDAN BAŞLAYINIZ !!
-<img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/raw.gif" alt="DETAYLI ANLATIM VE KURULUM" align="middle" />
-</p>
+
 
 -------------------------------------------------------------------------------------
 <br><br>
 
-#KISA VE ÖZET KURULUM
+#KISA VE ÖZET KURULUM<br><br>
+<p align="center"> DETAYLI BİLGİ VE  VE KURULUM AYRINTILARI İÇİN LÜTFEN SAYFA BAŞINDAN BAŞLAYINIZ !!
+<img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/raw.gif" alt="DETAYLI ANLATIM VE KURULUM" align="middle" />
+</p>
+
 ## **ADIM 1:**
 <br>
  1.Pi_CAR'I Raspberry pi 2 için ya da  raspberry pi 3'ün Üzerindeki dahili Wi-Fi modülü kullanarak yönetmek istiyorsanız.Bu [**linteki**](https://drive.google.com/file/d/0B6yjwSAqPTgfX1dsaVVJZThEN2c/view?usp=sharing) işletim sistemini indirerek SD karta yazdırınız.
@@ -209,11 +211,11 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 <br>
 
 ## **ADIM 2**
-Arduino kontrol yazılımını Bu [**linteken**](https://drive.google.com/file/d/0B6yjwSAqPTgfX1dsaVVJZThEN2c/view?usp=sharing) indirerek
+Arduino kontrol yazılımını Bu [**linteken**](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/tree/master/androidToRaspberryTurkce) indirerek
 Arduino' ya yükleyiniz.
 
 ## **ADIM 3**
-Android kontrol yazılımıda  Bu [**linteken**](https://drive.google.com/file/d/0B6yjwSAqPTgfX1dsaVVJZThEN2c/view?usp=sharing) indirerek
+Android kontrol yazılımıda  Bu [**linteken**](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght) indirerek
 telefonunuza  yükleyiniz.
 <br><br><br>
 **ve  işlem tamam arduino motor sürücüleri arasındaki bağlantıları doğru yaptıysanız artık aracı kontrol etmeye başlayabilirsiniz.**
