@@ -191,7 +191,7 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/play_video2.png)](https://youtu.be/CT-hgXIPRIk)
 <br><br>
 
-<p align="center"> DETAYLI ANLATIM VE KURULUM
+<p align="center"> DETAYLI BİLGİ VE  VE KURULUM AYRINTILARI İÇİN LÜTFEN SAYFA BAŞINDAN BAŞLAYINIZ !!
 <img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/raw.gif" alt="DETAYLI ANLATIM VE KURULUM" align="middle" />
 </p>
 
@@ -215,8 +215,8 @@ Arduino' ya yükleyiniz.
 ## **ADIM 3**
 Android kontrol yazılımıda  Bu [**linteken**](https://drive.google.com/file/d/0B6yjwSAqPTgfX1dsaVVJZThEN2c/view?usp=sharing) indirerek
 telefonunuza  yükleyiniz.
-<br>
-ve  işlem tamam arduino motor sürücüleri arasındaki bağlantıları doğru yaptıysanız artık aracı kontrol etmeye başlayabilirsiniz.
+<br><br><br>
+**ve  işlem tamam arduino motor sürücüleri arasındaki bağlantıları doğru yaptıysanız artık aracı kontrol etmeye başlayabilirsiniz.**
 
 <p align="center">
  <a href="https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/Google.png"/></a>
