@@ -190,8 +190,8 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/testvd1.png)](https://youtu.be/qbkH2KFcKqw)
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/play_video2.png)](https://youtu.be/CT-hgXIPRIk)
 <br><br>
-![Screen Shot]()
-<p align="center">
+
+<p align="center"> DETAYLI ANLATIM VE KURULUM
 <img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/raw.gif" alt="DETAYLI ANLATIM VE KURULUM" align="middle" />
 </p>
 
@@ -199,19 +199,20 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 <br><br>
 
 #KISA VE ÖZET KURULUM
-## **1**
-### 1.Pi_CAR'I Raspberry pi 2 için ya da  raspberry pi 3'ün Üzerindeki dahili Wi-Fi modülü kullanarak yönetmek istiyorsanız.Bu [**linteki**](https://drive.google.com/file/d/0B6yjwSAqPTgfX1dsaVVJZThEN2c/view?usp=sharing) işletim sistemini indirerek SD karta yazdırınız.
+## **ADIM 1:**
+<br>
+ 1.Pi_CAR'I Raspberry pi 2 için ya da  raspberry pi 3'ün Üzerindeki dahili Wi-Fi modülü kullanarak yönetmek istiyorsanız.Bu [**linteki**](https://drive.google.com/file/d/0B6yjwSAqPTgfX1dsaVVJZThEN2c/view?usp=sharing) işletim sistemini indirerek SD karta yazdırınız.
+<br>
 
 
+ 2.Pi_CAR'I Raspberry pi 3 'ün  Üzerinden harici olarak taktığınız Wi-Fi modüşü kullarak yönetmek istiyorsanız.Bu [**linteki**](https://drive.google.com/file/d/0B6yjwSAqPTgfYkhxWEN2dXBIQlU/view?usp=sharing) işletim sistemini indiriniz.
+<br>
 
-### 2.Pi_CAR'I Raspberry pi 3 'ün  Üzerinden harici olarak taktığınız Wi-Fi modüşü kullarak yönetmek istiyorsanız.Bu [**linteki**](https://drive.google.com/file/d/0B6yjwSAqPTgfYkhxWEN2dXBIQlU/view?usp=sharing) işletim sistemini indiriniz.
-
-
-## **2**
+## **ADIM 2**
 Arduino kontrol yazılımını Bu [**linteken**](https://drive.google.com/file/d/0B6yjwSAqPTgfX1dsaVVJZThEN2c/view?usp=sharing) indirerek
 Arduino' ya yükleyiniz.
 
-## **3**
+## **ADIM 3**
 Android kontrol yazılımıda  Bu [**linteken**](https://drive.google.com/file/d/0B6yjwSAqPTgfX1dsaVVJZThEN2c/view?usp=sharing) indirerek
 telefonunuza  yükleyiniz.
 <br>
