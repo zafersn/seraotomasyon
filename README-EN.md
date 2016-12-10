@@ -196,8 +196,8 @@ Let's briefly explain the working principle and the introduction of the applicat
 
 -------------------------------------------------------------------------------------
 <br><br>
-
-#BRIEF AND ABSTRACT INSTALLATION<br><br>
+#<p align="center"> <b>BRIEF AND ABSTRACT INSTALLATION</b></p>
+<br><br>
 <p align="center"> <b>FOR DETAIL INFORMATION AND INISTALLATION DETAILS, PLEASE START AT THE TOP OF THE PAGE.!!</b>
 <img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/raw.gif" alt="DETAYLI ANLATIM VE KURULUM" align="middle" />
 </p>
@@ -216,7 +216,7 @@ Download the Arduino control software from this  [**link**](https://github.com/z
 ## **STEP 3**
 Download the Android control software from this  [**link**](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght) and upload to Android Phone. 
 <br><br><br>
-**ve  işlem tamam arduino motor sürücüleri arasındaki bağlantıları doğru yaptıysanız artık aracı kontrol etmeye başlayabilirsiniz.**
+**And the operation is complete. If you have correctly connected the Arduino motor drivers, you can now start checking the vehicle.**
 
 <p align="center">
  <a href="https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/Google.png"/></a>
