@@ -49,7 +49,12 @@ Araç Şasi (Gövdesi)| 1
 
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/youtbeT2.png)](https://youtu.be/D4ewbO-OGLY)
 
-![Screen shot WiFi Maunt](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/wificontrol.png)
+<p align="center"> <b>L298 - Dual Full Bridge Driver</b>
+<img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/wificontrol.png"  />
+</p>
+<p align="center"> <b>BTS7960 - 43A MOTOR DRIVE</b>
+<img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/BTS7960%20fritzing2.png"  />
+</p>
 <br><br>
 * Arduino, Raspberry pi,Raspberry pi camera modülü, L298N motor sürücü, Motorlar, Güç kaynağının bağlantılarını  yukarıdaki resimdeki gibi gerçekleştiriniz.
 * Yukarıdaki şekildeki gibi arduino pin bağlantılarını ve raspberry pi bağlantısını  gerçekleştirdikten sonra yapmamız gereken arduino kodlarımızı yüklemek olacaktır.<br>
