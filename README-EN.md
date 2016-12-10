@@ -156,7 +156,7 @@ Let's briefly explain the working principle and the introduction of the applicat
 * Main details using direction control of the car was told in `Arduino` section. If we explain to the Android side, there will be available `Seek bar (Velocity setting)`, `Camera On / Off`,`Wi-Fi status indicator` and `Arrow keys`.<br><br> ![Screen Shot](images/device-2016-06-30-195734 english information.png)<br><br>
 *  **Seek bar(Velocity setting)**is created from 15 slice and velocity coefficient is 17. So any move of the Seek bar, there will be changing 17 and its multiples. For instance, If Seek bar in fifth order, produced pwm = 5*17 = 85.
 
-* **Menu keys (Camera On/Off and WiFi Indicator)** Other vehicle control functions beside Seekbar 'ın;<br> Camera on / off button for taking the camera image through the vehicle " ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/ic_eye.png) `Open` ", " ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/ic_eye_off.png) `CLOSE` ", In the same way, an indication of whether our application is connected to the Wi-Fi network we created on Raspberry Pi."<br> ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/ic_wifi_on.png) NOT CONNECTED", " ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/ic_wifi_off.png) CONNECTED "
+* **Menu keys (Camera On/Off and WiFi Indicator)** Other vehicle control functions beside Seekbar 'ın;<br> Camera on / off button for taking the camera image through the vehicle " ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/ic_eye.png) `Open` ", " ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/ic_eye_off.png) `CLOSE` ", In the same way, an indication of whether our application is connected to the Wi-Fi network we created on Raspberry Pi."<br> ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/ic_wifi_on.png) `NOT CONNECTED` ", " ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/ic_wifi_off.png) `CONNECTED` "
 
 * **Arrow keys** provide seperating directions of data which take from Seek bar(Velocity setting). For moving direction of the car, `+` or `-` sign come to head of the PWM value.<br>
 **For example:**
@@ -172,7 +172,7 @@ Let's briefly explain the working principle and the introduction of the applicat
 * The formula for calculating cross turnings: **PWM VALUE - ((PWM VALUE) / PWM RATE)**<br>
 * In default, PWM RATE is `2`.<br>
 * You can reach the PWM RATE setting from right-top button in the screen and from there to `Settings` menu.<br><br>
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/device-2016-07-07-230804.png)<br>![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/device-2016-07-07-230848.png)<br><br>
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/Screenshot_20160713-205757.png)<br>![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/Screenshot_20160713-205807.png)<br><br>
 
 *  PWM interval which can be entered is a value as a **minimum and maximimum between 1-4 interval in integer and double type**.<br><br>
  
