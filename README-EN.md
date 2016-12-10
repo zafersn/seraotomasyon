@@ -172,7 +172,7 @@ Let's briefly explain the working principle and the introduction of the applicat
 * The formula for calculating cross turnings: **PWM VALUE - ((PWM VALUE) / PWM RATE)**<br>
 * In default, PWM RATE is `2`.<br>
 * You can reach the PWM RATE setting from right-top button in the screen and from there to `Settings` menu.<br><br>
-[Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/device-2016-07-07-230804.png)<br>![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/device-2016-07-07-230848.png)<br><br>
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/device-2016-07-07-230804.png)<br>![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/device-2016-07-07-230848.png)<br><br>
 
 *  PWM interval which can be entered is a value as a **minimum and maximimum between 1-4 interval in integer and double type**.<br><br>
  
