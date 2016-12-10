@@ -55,7 +55,7 @@ Example:<br>
 * Connections among Arduino, Raspberry pi,Raspberry pi camera module, L298N motor driver, Motors and Power Supply are set up as above picture.
 * After connected Arduino pins and Raspberry pi as above picture, we can load our codes to Arduino. That do by this sequence:
 * Detail information about Arduino codes is placed in that codes.
-* Download `androidToRaspberry.ino` file and open this file with double click.
+*  [**Download**](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/tree/master/androidToRaspberryEnglishInformation)  `androidToRaspberry.ino` file and open the this file with double click.
 * For uploading that project file to Arduino, first you must select the Arduino model from `Tools => Board` menu.<br><br>
 
 
@@ -190,3 +190,35 @@ Let's briefly explain the working principle and the introduction of the applicat
 ## TEST VİDEO:
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/testvd1.png)](https://youtu.be/qbkH2KFcKqw)
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/play_video2.png)](https://youtu.be/CT-hgXIPRIk)
+<br><br>
+
+
+
+-------------------------------------------------------------------------------------
+<br><br>
+
+#BRIEF AND ABSTRACT INSTALLATION<br><br>
+<p align="center"> <b>FOR DETAIL INFORMATION AND INISTALLATION DETAILS, PLEASE START AT THE TOP OF THE PAGE.!!</b>
+<img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/raw.gif" alt="DETAYLI ANLATIM VE KURULUM" align="middle" />
+</p>
+
+## **STEP 1:**
+<br>
+1.If you want to manage Pi_CAR via Raspberry pi 2 or  the built-in Wi-Fi module on the Raspberry Pi 3.Download the operating system on [**this link**](https://drive.google.com/file/d/0B6yjwSAqPTgfX1dsaVVJZThEN2c/view?usp=sharing)  and print to the SD card.
+<br>
+
+2.If you want to manage Pi_CAR by using Wi-Fi module externally mounted on raspberry pi 3. Download the operating system on [**this link**](https://drive.google.com/file/d/0B6yjwSAqPTgfYkhxWEN2dXBIQlU/view?usp=sharing)  and print to the SD card.
+<br>
+
+## **STEP 2**
+Download the Arduino control software from this  [**link**](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/tree/master/androidToRaspberryTurkce) and upload to Arduino. 
+
+## **STEP 3**
+Download the Android control software from this  [**link**](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght) and upload to Android Phone. 
+<br><br><br>
+**ve  işlem tamam arduino motor sürücüleri arasındaki bağlantıları doğru yaptıysanız artık aracı kontrol etmeye başlayabilirsiniz.**
+
+<p align="center">
+ <a href="https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/Google.png"/></a>
+</p>
+
