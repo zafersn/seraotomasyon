@@ -134,10 +134,9 @@ Video description:
 
 ### INSTALL ANDROID APPLICATION:
 *  Installing of the application is very simple. Only after enter the **ANDROID GOOGLE PLAY** market, you can type in searching box `com.stackcuriosity.tooght` or application name `RC CONTROLLER WITH CAMERA` for directly access to application.<br><br>
-[![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/Google.png)](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght)
+
 <p align="center">
-  
-  <a href="https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/Google.png"/></a>
+ <a href="https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/Google.png"/></a>
 </p>
 ### USING THE APPLICATION AND HINTS
 #### Raspberry Pi Connection Informations
