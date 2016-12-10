@@ -8,6 +8,7 @@
 **KONTROL**|ANDROID|ANDROID
 **KAMERA**|VAR|VAR
 **KURULUM**|.img dosyası üzerinden |Elle kurulum
+**Yatın Tarihi**||30 Tem. 2016
 # V2 ILE BIRLIKTE GELEN YENILIKLER
 * Doğrudan araca bağlanabilme,sabit bir Wi-Fi modeme bağlı kalmadan araç üstünde oluşturulan hotspot'a bağlanabilme ve kullanabilme (Raspberry pi üzerinde hotspot oluşturuldu).
 * Araç ile telefon haberleşme yazılımında iyileştirme
@@ -33,6 +34,8 @@
 **CONTROL**|ANDROID|ANDROID
 **CAMERA**|THERE IS|THERE IS
 **SETUP**|Through the ".img" file |Manual installation
+**Release date**||30 Jul 2016
+
 # Innovation coming with "V2"
 * Ability to connect directly to the vehicle,Connect and use hotspots created on the vehicle without being connected to a fixed Wifi mode (Created hotspot on Raspberry Pi).
 * Improvement in vehicle and telephone communication software.
