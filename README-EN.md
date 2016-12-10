@@ -168,9 +168,9 @@ Let's briefly explain the working principle and the introduction of the applicat
  200:100 // The car moves as turning to the right.<br><br>
 
 ##### 2.SENSITIVITY IN TURNING LEFT AND RIGHT
- * When our car moving to right cross and left cross, motors' PWM value which will be turning side decreases, and so this provides slower motor rotating. So, the car can achieve the intended turnings. **This rotating sensitivity setting let to user.**<br><br>
-* The formula for calculating cross turnings: **PWM VALUE - ((PWM VALUE) / PWM RATE)**<br><br>
-* In default, PWM RATE is `2`.<br><br>
+ * When our car moving to right cross and left cross, motors' PWM value which will be turning side decreases, and so this provides slower motor rotating. So, the car can achieve the intended turnings. **This rotating sensitivity setting let to user.**<br>
+* The formula for calculating cross turnings: **PWM VALUE - ((PWM VALUE) / PWM RATE)**<br>
+* In default, PWM RATE is `2`.<br>
 * You can reach the PWM RATE setting from right-top button in the screen and from there to `Settings` menu.<br><br>![Screen Shot](images/Screenshot_20160713-205757.png)<br><br>![Screen Shot](images/Screenshot_20160713-205807.png)<br><br>
 *  PWM interval which can be entered is a value as a **minimum and maximimum between 1-4 interval in integer and double type**.<br><br>
  
@@ -178,10 +178,11 @@ Let's briefly explain the working principle and the introduction of the applicat
 
 ### ICON OF OUR APPLICATION:
 
-![Screen Shot](images/raspi_car.png)
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/raspi_car.png)
 
 
 
 
 ## TEST VİDEO:
-[![Screen Shot](images/testvd1.png)](https://youtu.be/qbkH2KFcKqw)<br><br><br>
+[![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/images/testvd1.png)](https://youtu.be/qbkH2KFcKqw)
+[![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2.0/images/play_video2.png)](https://youtu.be/CT-hgXIPRIk)
