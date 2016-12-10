@@ -119,7 +119,7 @@ Once you are sure your Sd card is connected to the computer, you can see it in t
 ## 3.Connections and Operation
 
 After the writing process is completed, you can remove your SD card from the computer and insert it into the Raspberry.
-Artık yapmanız gereken SADECE Raspberry' nize USB üzerinde bir Arduino takıp  gerekli güç ve motor sürücüleri bağlantılarını yaptıktan sonra araca monte etmenizdir.
+All you need to do now is mount the Arduino to Raspberry via USB and mount it after you have made the necessary power and motor drive connections.
 <br>
 Video description:
 <br>
