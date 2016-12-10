@@ -57,7 +57,7 @@ Araç Şasi (Gövdesi)| 1
 
 **I.** Arduino kodlarının açıklamaları ve ne işe yaradığı ile ilgili detaylı bilgi kodların içinde mevcuttur.<br>
 
-**II.** `androidToRaspberry.ino` adlı arduino kodumuzu indiriniz ve çift tıklayarak açınız.<br>
+**II.** `androidToRaspberry.ino` adlı arduino kodumuzu bu [**linteken**](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/tree/master/androidToRaspberryTurkce) indirerek ve çift tıklayarak açınız.<br>
 
 **III.** Açılan proje dosyasını arduino' ya yüklemek için sıra ile  sekmelerden `Tools` => `Board`  ve buradan kullandığınız arduino modelinizi seçiniz.<br><br>
 
