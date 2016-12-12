@@ -82,7 +82,7 @@ Raspberry pi setup is quite simple. First, <br>
 Win32DiskImager is the program that is required to print the operating system to the SD card.  [**Click**](http://www.gezginler.net/indir/win32-disk-imager.html) to download
 
 ## 1. Raspbian Operating System Downloads;
-We will need to write the  the   operating system contains vehicle control software.The point to be noted here is that when selecting the operating systems listed below, download it according to the Wi-Fi module in your hand and print it to the sd card.Modems supported by Operating Systems and Operating Systems are given below.
+We will need to write the  the   operating system containing vehicle control software.The point to be noted here is that when selecting the operating systems listed below, download it according to the Wi-Fi module in your hand and print it to the sd card.Modems supported by Operating Systems and Operating Systems are given below.
 <br>
 ### Downloadable operating system for Raspberry Pi 3
 We have 2 alternative methods for Raspberry pi 3;<br>
