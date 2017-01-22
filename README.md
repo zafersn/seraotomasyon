@@ -19,7 +19,7 @@
 * Kamera 2 eksen hareketli hale getirildi.(JOYSTICK VE VR ARAYÜZLERİNDE)
 * Araç servo motor ile direksiyon kontrolü yazılımları eklendi.
 * Windows ortamından Fly Joystick yardımı ile aracın kontrol edilmesi için kontrol uygulaması eklendi.
-* VR desteği eklendi.(Kafa hareketlerine göre kameranın 2 eksen hareketi ve görüntünün aktarılması.)
+* VR desteği eklendi.(Kafa hareketlerine göre kameranın 2 eksen hareketi ve görüntünün aktarılması.)<br>
 **NOT:** VR modu seçildiğinde aracın hareket kontrolü için 2. bir cihaza ihtiyaç duyulmaktadır. Buda yine aynı şekilde isteğe bağlı olarak ikinci bir android telefon üzerinden diğer kontrol arayüzleri yardımı ile ya da Windows PC üzerinde Fly Joystick yardımı ile gerçekleştirilebilmektedir.
 
 #--------------------------------V3--------------------------------
