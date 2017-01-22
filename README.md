@@ -1,7 +1,7 @@
 # <p align="center"> <b>RASPBERRY PI- ARDUINO ANDROID-CONTROLLED RC-CAR ROVER WITH LIVE VIDEO STREAMING</b></p>
 # ----------------------------- Pi_CAR ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/raspi_car.png) --------------------------
 <br><br>
-# V2 ve V1 ARASINDAKI FARKLAR
+# v3,V2 ve V1 ARASINDAKI FARKLAR
 
  Pi_CAR|V3| V2 | V1
 ------------|---------| -------------|-------
@@ -9,9 +9,10 @@
 **MENZIL** |(WiFi Dongle göre değişir) 10m -- HAREKETLİ| (WiFi Dongle göre değişir) 10m -- HAREKETLİ| (WiFi Dongle göre değişir ) 10m --SABİT
 **KONTROL**|ANDROID,WINDOWS PC APP.|ANDROID APP.|ANDROID APP.
 **KONTROL ARAYÜZÜ**|BUTON, JOYSTICK, VR (VIRTUAL REALITY) |BUTON|BUTON
+**KONTROL KARTLARI**|RASPBERRY PI|RASPBERRY PI+ARDUINO|RASPBERRY PI+ARDUINO
 **KAMERA**|VAR(JOYSTICK, VR KONTROLLÜ)|VAR (SABİT)|VAR (SABİT)
 **KURULUM**|.img dosyası üzerinden|.img dosyası üzerinden |Elle kurulum
-**Yayın Tarihi**||16 Aralık 2016|30 Tem. 2016
+**YAYIN TARIHI**||16 Aralık 2016|30 Tem. 2016
 # V2 ILE BIRLIKTE GELEN YENILIKLER
 * Doğrudan araca bağlanabilme,sabit bir Wi-Fi modeme bağlı kalmadan araç üstünde oluşturulan hotspot'a bağlanabilme ve kullanabilme (Raspberry pi üzerinde hotspot oluşturuldu).
 * Araç ile telefon haberleşme yazılımında iyileştirme
