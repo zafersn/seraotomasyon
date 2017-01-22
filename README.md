@@ -3,14 +3,15 @@
 <br><br>
 # V2 ve V1 ARASINDAKI FARKLAR
 
- Pi_CAR| V2 | V1
------------- | -------------|-------
-**HABERLESME** |UDP |TCP
-**MENZIL** | (WiFi Dongle göre değişir) 10m -- HAREKETLİ| (WiFi Dongle göre değişir ) 10m --SABİT
-**KONTROL**|ANDROID|ANDROID
-**KAMERA**|VAR|VAR
-**KURULUM**|.img dosyası üzerinden |Elle kurulum
-**Yayın Tarihi**|16 Aralık 2016|30 Tem. 2016
+ Pi_CAR|V3| V2 | V1
+------------|---------| -------------|-------
+**HABERLESME**|UDP |UDP |TCP
+**MENZIL** |(WiFi Dongle göre değişir) 10m -- HAREKETLİ| (WiFi Dongle göre değişir) 10m -- HAREKETLİ| (WiFi Dongle göre değişir ) 10m --SABİT
+**KONTROL**|ANDROID,WINDOWS PC APP.|ANDROID APP.|ANDROID APP.
+**KONTROL ARAYÜZÜ**|BUTON, JOYSTICK, VR (VIRTUAL REALITY) |BUTON|BUTON
+**KAMERA**|VAR(JOYSTICK, VR KONTROLLÜ)|VAR (SABİT)|VAR (SABİT)
+**KURULUM**|.img dosyası üzerinden|.img dosyası üzerinden |Elle kurulum
+**Yayın Tarihi**||16 Aralık 2016|30 Tem. 2016
 # V2 ILE BIRLIKTE GELEN YENILIKLER
 * Doğrudan araca bağlanabilme,sabit bir Wi-Fi modeme bağlı kalmadan araç üstünde oluşturulan hotspot'a bağlanabilme ve kullanabilme (Raspberry pi üzerinde hotspot oluşturuldu).
 * Araç ile telefon haberleşme yazılımında iyileştirme
