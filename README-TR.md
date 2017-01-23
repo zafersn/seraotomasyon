@@ -191,6 +191,8 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 ##  Joystick Kontrol Arayüzü
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20170123_013536_641.jpg)
 
+Araçın ve kameranın kontrolünün sağlandığı 2 adet joystick kontrol butonu mevcuttur. Bu butonla
+
 ## VR Kontrol Arayüzü
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Screenshot_20170122-205445.png)
 
