@@ -20,61 +20,6 @@ Araç Şasi (Gövdesi)| 1
 5V Güç Kaynağı|1
 <br>
 
-## Arduino:
-### AMAÇ VE GÖREVLER:
-*	Arduino motorları kontrol etmek amacı ile kullanılmıştır.
-*	Arduino ile raspberry pi usb üzerinden seri haberleşme yapmaktadır.
-*	Android telefonumuz üzerinde arduino’ya gidecek olan pwm aralığı hesaplanıp gönderilmektedir.(Gelecek güncellemeler ve kullanıcının pwm değişkenine daha kolay müdahale edilmesi için)
-*	Aşağıda Raspberry pi, Raspberry pi Camera, Arduino, L298N Motor Sürücü,Motorlar ve Bataryanın devre bağlantı şeması gösterilmiştir. 
-
- 
-### ARDUINO KURULUMU VE PIN BAĞLANTI ŞEMASI
-
-* Arduino 'ya gelen veri doğrudan motorlara gidecek pwm aralığı olarak gelmektedir.PWM değerinin yanında sadece aracın yön tayini için ` + (ileri)` ve ya `- (geri)` değerini almaktadır.
-* Yukarıdaki durum göz önüne alınarak çeşitli modifikasyonlar yapılabilir.
-* PWM aralığı `0-255` arasındadır.
-* Telefon üzerinden SAĞ VE SOL motor pwmlerini ve servo motor açısını String bir şekilde örn:  200:200!888 şeklinde alıyoruz. Aradaki iki nokta üst üste  `:` ve ünlem işareti `!` ' e göre bölerek 3 elemanlı bir dizi oluşturuyoruz.
-*  `!` den sonraki değer, cameranın bağlı bulunduğu servo motor'un açı değerleridir. Bu çalışmada servo motor kullanılmamıştır.<br><br>
-**Motor Hareket PWM Geliş Tipi ve Aracın Durumları**<br>
-örn:
-*  0:0      //stop
-* 200:200     // ileri git. ( 2 motorda 200pwm ile çalışır )
-*  -200:-200   //geri git. (2 motorda 200pwm ile çalışır)
-*  200:-200   // sol motor 200 pwm ileri, sag motor 200 geri döner ( araç kendi etrafında soldan sağa doğru döner)
-* -200:200   // sol motor 200 pwm geri, sag motor 200 ileri döner ( araç kendi etrafında sağdan sola doğru döner)
-* 200:100    // araç sağa dönecek şekilde hareket eder.<br><br>
- 
-
-
-
-[![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/youtbeT2.png)](https://youtu.be/D4ewbO-OGLY)
-
-<p align="center"> <b>L298 - Motor Sürücü</b>
-<img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/wificontrol.png"  />
-</p>
-<p align="center"> <b>BTS7960 - 43A MOTOR Sürücü</b>
-<img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images//images/BTS7960%20fritzing2.png"  />
-</p>
-<br><br>
-* Arduino, Raspberry pi,Raspberry pi camera modülü, L298N motor sürücü, Motorlar, Güç kaynağının bağlantılarını  yukarıdaki resimdeki gibi gerçekleştiriniz.
-* Yukarıdaki şekildeki gibi arduino pin bağlantılarını ve raspberry pi bağlantısını  gerçekleştirdikten sonra yapmamız gereken arduino kodlarımızı yüklemek olacaktır.<br>
-**Bunu sıra ile şu  şekilde yapabilirsiniz.<br>**
-
-**I.** Arduino kodlarının açıklamaları ve ne işe yaradığı ile ilgili detaylı bilgi kodların içinde mevcuttur.<br>
-
-**II.** `androidToRaspberry.ino` adlı arduino kodumuzu bu [**linteken**](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/tree/master/T%C3%9CRK%C3%87E/V2/androidToRaspberryTurkce) indirerek ve çift tıklayarak açınız.<br>
-
-**III.** Açılan proje dosyasını arduino' ya yüklemek için sıra ile  sekmelerden `Tools` => `Board`  ve buradan kullandığınız arduino modelinizi seçiniz.<br><br>
-
-
-![Screen Shot RA1](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/ra1.png)
-<br><br>
-**IV.** Tekrar `Tools` sekmesinden takmış olduğunuz arduino' nuzun hangi port' a takılı olduğunu gösteriniz.  `Tools` => `port`<br>
-
-**V.** Yukarıdaki adımları gerçekleştirdikten sonra şimdi programımızı arduino' muza yükleyebiliriz.Sol üst köşede `Upload` butonuna basarak yükleme işlemini tamamlamış oluyoruz.<br><br>
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/ra2.png)
-<br><br>
-
 ## RASPBERRY PI:
 ### AMAÇ VE GÖREVLER:
 
