@@ -76,6 +76,9 @@ Sd kartınızın bilgisayara takılı olduğundan emin olduktan sonra Device kı
 
 Yazma işlemi tamamlandıktan sonra SD kartınızı bilgisayardan çıkartıp Raspberry pi'nize takabilirsiniz.
 Artık yapmanız gereken SADECE Raspberry' nize  gerekli güç ve motor sürücüleri bağlantılarını yaptıktan sonra araca monte etmenizdir.
+
+ # Pi_CAR Wi-Fi  Şifresi: TRaspberry
+
 <br>
 Video'lu anlatım: 
 <br>
@@ -84,7 +87,7 @@ Video'lu anlatım:
 ## ANDROID:
 
 ### AMAÇ VE GÖREVLERİ:
-* Raspberry pi ve arduino ile yapılmış olan rc-arabanın kontrolünü sağlamak.
+* Raspberry pi ile yapılmış olan rc-arabanın kontrolünü sağlamak.
 * Kullanıcı için sade ve kolay görsel arayüz.
 * Raspberry pi üzerinden kamera görüntüsünü alarak kullanıcıya göstermek.
 
@@ -140,13 +143,13 @@ Android uygulamamızı yükledikten sonra normal şartlar altında araç üzerin
 <br>
    Ve herşey tamam artık uygulamayı kullanabilirsiniz.
    
-   
-   
+     
   
 #### Raspberry pi bağlantı bilgileri
 * Android uygulamanızı indirdikten sonra sizi aşağıdaki gibi bir ekran karşılayacaktır.Artık yapmanız gereken şey sadece aracı kontrol etmek olacaktır.
 <br>
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/Screenshot_20161208-155537.png)
+
+
 
 Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 
@@ -154,12 +157,16 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 
 ##### 1. GÖRSEL ARAYÜZÜN AÇIKLANMASI VE PROGRAMLAMA MANTIĞI
 * **Uygulamamız 4 temel esasa dayanmaktadır.** Bunlar;
-  1. Aracın yön kontrolünün sağlanması.<br>
+  1. Aracın ve üzerindeki kameranın hareketinin sağlanması. (Joystick, Buton ve Vr(Kamera hareketi) olmak üzere 3 ayrı kontrol yöntemi mevcuttur. )<br>
   2. Kullanıcıya araç üzerindeki kameradan canlı görüntünün aktarılması.<br>
-  3. Aracın bağlantı sinyal seviyesi göstergesi.
-  4. Fallow Me (Çok yakında).(Aracın sahibini takip etmesi).<br>
-* Bu dört temel esasa göre 
-*  Aracın yön kontrolünde kullanılan mantığın ana detaylarını `Arduino` bölümde anlattık.Android tarafına bakan kısmı ile açıklayacak olursak.Android tarafında, kullanıcı için `Seek bar (Hız ayarı)` , `Kamera Açma / Kapama` ,`Wi-Fi durum göstergesi`  ve `Yön tuşları` mevcuttur.<br> ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/Screenshot_description_githup.png)<br>
+  3. Aracın bağlantı sinyal seviyesi göstergesi.  <br>
+* Bu üç temel esasa göre 
+*  Aracın yön kontrolünde android tarafına bakan kısmı ile açıklayacak olursak.Android tarafında, kullanıcı için 3 ayrı kontrol arayüzü mevcuttur,bunlar yön kontrol butonları, joystick şeklindeki butonlar ve VR ' dır. **Şimdi bu 3 kontrol arayüzünü inceleyelim**
+## Buton Kontrol Arayüzü
+
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20170123_013621_334.jpg)
+
+`Seek bar (Hız ayarı)` , `Kamera Açma / Kapama` ,`Wi-Fi durum göstergesi`  ve `Yön tuşları` mevcuttur.<br> ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/Screenshot_description_githup.png)<br>
 *  **Seek bar(Hız ayarı)** 15 dilimden oluşmaktadır ve hız katsayısı 17'dir.Yani seek bar' ın herbir hareketi pwm'de 17'nin katları şeklinde bir oynama yapmaktadır.Seek bar 5. kademede ise üretilen pwm= 5*17 = 85 'tir.
 *  **Menü tuşları (Kamera Aç/Kapa ve WiFi Göstergesi)** Seekbar 'ın yanında yer alan diğer araç kontrol fonksiyonları;<br> Kamera görüntüsünü araç üzerinden almamıza yarayan Kamera açma ve kapatma butonu "  ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/ic_eye.png) AÇ ", " ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/ic_eye_off.png) KAPAT ", Aynı şekilde uygulamamızın Raspberry Pi üzerinde oluşturduğumuz Wi-Fi ağa bağlanıp bağlanılmadığını gösteren bir gösterge."![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/ic_wifi_on.png) BAĞLI DEĞİL", " ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/ic_wifi_off.png) BAĞLI "
 *  **Yön tuşları** seek bar(Hız ayarı)'dan alınan verinin yönlere ayrılmasını sağlar. Aracın gidiş yönüne göre pwm değerinin başına `+` ve ya `-` işareti getirilir. **Örn;**<br><br>
@@ -177,6 +184,11 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 * PWM ORANI ayarını, kontrol ekranın da sağ üst köşede `Ayarlar` butonundan tekrar `Ayarlar` sekmesine basarak ulaşabilirsiniz.<br>!![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/Screenshot_20160713-205757.png)<br>![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/Screenshot_20160713-205807.png)<br><br>
 * Girebileceğinz PWM ORANI aralığı **minimum ve maksimum olarak 1-4 arasında integer ve double tipinde** değerlerdir.
  
+##  Joystick Kontrol Arayüzü
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20170123_013536_641.jpg)
+
+## VR Kontrol Arayüzü
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Screenshot_20170122-205445.png)
 
 
 ### UYGULAMA ICON 'UMUZ:
