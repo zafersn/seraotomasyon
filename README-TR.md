@@ -79,8 +79,11 @@ Artık yapmanız gereken SADECE Raspberry' nize  gerekli güç ve motor sürüc�
 
 # Pi_CAR Wi-Fi  Şifresi: TRaspberry
 
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/DEVRE%20semasi%20.PNG)<br><br>
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/devre%20sematic.PNG)
+## Araç seçimi ve aracınıza uygun pin pağlantısı için [tıklayınız!](https://github.com/zafersn/seraotomasyon/blob/master/select_vehicle_type.md)
+
+
+# Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues)
+
 <br>
 Video'lu anlatım: 
 <br>
