@@ -77,7 +77,7 @@ Sd kartınızın bilgisayara takılı olduğundan emin olduktan sonra Device kı
 Yazma işlemi tamamlandıktan sonra SD kartınızı bilgisayardan çıkartıp Raspberry pi'nize takabilirsiniz.
 Artık yapmanız gereken SADECE Raspberry' nize  gerekli güç ve motor sürücüleri bağlantılarını yaptıktan sonra araca monte etmenizdir.
 
- # Pi_CAR Wi-Fi  Şifresi: TRaspberry
+# Pi_CAR Wi-Fi  Şifresi: TRaspberry
 
 <br>
 Video'lu anlatım: 
@@ -87,7 +87,7 @@ Video'lu anlatım:
 ## ANDROID:
 
 ### AMAÇ VE GÖREVLERİ:
-* Raspberry pi ile yapılmış olan rc-arabanın kontrolünü sağlamak.
+* Raspberry pi ile yapılmış olan rc-arabanın ve üzerindeki cameranın kontrolünü sağlamak.
 * Kullanıcı için sade ve kolay görsel arayüz.
 * Raspberry pi üzerinden kamera görüntüsünü alarak kullanıcıya göstermek.
 
@@ -148,7 +148,7 @@ Android uygulamamızı yükledikten sonra normal şartlar altında araç üzerin
 #### Raspberry pi bağlantı bilgileri
 * Android uygulamanızı indirdikten sonra sizi aşağıdaki gibi bir ekran karşılayacaktır.Artık yapmanız gereken şey sadece aracı kontrol etmek olacaktır.
 <br>
-
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Screenshot_20170124-151222.png)
 
 
 Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
@@ -156,12 +156,12 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 #### UYGULAMA DETAYLARI
 
 ##### 1. GÖRSEL ARAYÜZÜN AÇIKLANMASI VE PROGRAMLAMA MANTIĞI
-* **Uygulamamız 4 temel esasa dayanmaktadır.** Bunlar;
+* **Uygulamamız 3 temel esasa dayanmaktadır.** Bunlar;
   1. Aracın ve üzerindeki kameranın hareketinin sağlanması. (Joystick, Buton ve Vr(Kamera hareketi) olmak üzere 3 ayrı kontrol yöntemi mevcuttur. )<br>
   2. Kullanıcıya araç üzerindeki kameradan canlı görüntünün aktarılması.<br>
   3. Aracın bağlantı sinyal seviyesi göstergesi.  <br>
 * Bu üç temel esasa göre 
-*  Aracın yön kontrolünde android tarafına bakan kısmı ile açıklayacak olursak.Android tarafında, kullanıcı için 3 ayrı kontrol arayüzü mevcuttur,bunlar yön kontrol butonları, joystick şeklindeki butonlar ve VR ' dır. **Şimdi bu 3 kontrol arayüzünü inceleyelim**
+*  Aracın yön kontrolünde android tarafına bakan kısmı ile açıklayacak olursak.Android tarafında, kullanıcı için 3 ayrı kontrol arayüzü mevcuttur,bunlar yön kontrol butonları, joystick ve VR ' dır. **Şimdi bu 3 kontrol arayüzünü inceleyelim**
 <br>
 
 
@@ -189,11 +189,13 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 * Girebileceğinz PWM ORANI aralığı **minimum ve maksimum olarak 1-4 arasında integer ve double tipinde** değerlerdir.
  
 ##  Joystick Kontrol Arayüzü
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20170123_013536_641.jpg)
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20170123_013536_641.jpg)<br><br>
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Joysitck_aciklma.png)
 
-Araçın ve kameranın kontrolünün sağlandığı 2 adet joystick kontrol butonu mevcuttur. Bu butonla
+Araçın ve kameranın kontrolünün sağlandığı 2 adet joystick kontrol arayüzü mevcuttur. Bu arayüzlerden soldaki araç'ın yön kontrolünü, sağdaki ise araç üzerindeki kamera' nın yön kontrolünü sağlamaktadır.
 
 ## VR Kontrol Arayüzü
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Screenshot_20170122-205445.png)
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Screenshot_20170122-205445.png)
 
 
