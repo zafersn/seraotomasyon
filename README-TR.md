@@ -84,7 +84,7 @@ Video'lu anlatım:
 <br>
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/youtube%20play2.png)](https://youtu.be/yNLug0DhQlc)
 
-## ANDROID:![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/android-icon64x64.png)<br>   
+## ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/android-icon64x64.png) ANDROID:<br>   
 
 ### AMAÇ VE GÖREVLERİ:
 * Raspberry pi ile yapılmış olan rc-arabanın ve üzerindeki cameranın kontrolünü sağlamak.
@@ -217,7 +217,7 @@ VR Arayüzünde dikkat etminiz gereken nokta, cihazın sensorlerinin kalibrasyon
 
 # Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues)<br>
 
-## WINDOWS: ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Microsoft-windows-8-icon64x64.png)<br>   
+## ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Microsoft-windows-8-icon64x64.png) WINDOWS: <br>   
 
 ### AMAÇ VE GÖREVLERİ:
 * Raspberry pi ile yapılmış olan rc-arabanın kontrolünü sağlamak.
@@ -228,7 +228,7 @@ VR Arayüzünde dikkat etminiz gereken nokta, cihazın sensorlerinin kalibrasyon
 Pi_CAR windows uygulamasında camera desteği yoktur. Kamera görüntüsünü olmadan aracı kullanmak isteyenler için ücretsiz bir şekilde kullanıma sunulmuştur.
 * Uygulamanın kurulumu son derece basittir. Sadece yapılması gereken uygulama setup dosyasını kurmak yeterlidir.<br>
 <p align="center">
- <a href="https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/Google.png"/></a>
+ <a href="https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/windows_pi_cart.png"/></a>
 </p>
 
 ### UYGULAMA KULLANIMI VE İPUCULARI  <br>
