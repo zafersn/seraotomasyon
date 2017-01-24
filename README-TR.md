@@ -207,7 +207,8 @@ Araçın ve kameranın kontrolünün sağlandığı 2 adet joystick kontrol aray
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Screenshot_20170122-205445.png)
 <br>
 
-# Anlaşılmayan bir konu,öneriniz veya istekleriniz için lütfen [sorunuz!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues) 
+ # Anlaşılmayan bir konu,öneriniz veya istekleriniz için lütfen [sorunuz!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues). 
+ <br>
 
 <br>
 ### UYGULAMA ICON 'UMUZ:
