@@ -185,7 +185,7 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 * Aracımızın sağ çağraz ve sol çapraz hareketleri yaparken dönüş yapılacak taraftaki motorların pwm değerleri düşürülür ve böylece motorların daha yavaş dönmesi sağlanır.Bu sayede araç istenilen hassasiyette çarpraz dönüşleri gerçekleştirebilir.**Bu dönüş hareketlerinin hassasiyet ayarlaması kullanıcıya bırakılmıştır.**
 * Çapraz dönüşlerin hassasiyetinin hesaplanmasında kullanılan formül : **`PWM DEĞERİ - (PWM DEĞERİ / PWM ORANI)`** 'dır.
 * PWM ORANI varsayılan olarak `2` gelmektedir.
-* PWM ORANI ayarını, kontrol ekranın da sağ üst köşede `Ayarlar` butonundan tekrar `Ayarlar` sekmesine basarak ulaşabilirsiniz.<br>!![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/Screenshot_20160713-205757.png)<br>![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/Screenshot_20160713-205807.png)<br><br>
+* PWM ORANI ayarını, kontrol ekranın da sağ üst köşede `Ayarlar` butonundan tekrar `Ayarlar` sekmesine basarak ulaşabilirsiniz.<br>![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/Screenshot_20160713-205757.png)<br>![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/Screenshot_20160713-205807.png)<br><br>
 * Girebileceğinz PWM ORANI aralığı **minimum ve maksimum olarak 1-4 arasında integer ve double tipinde** değerlerdir.
  <br>
  
@@ -212,10 +212,8 @@ VR Arayüzünde dikkat etminiz gereken nokta, cihazın sensorlerinin kalibrasyon
 * **1. kalibrasyon;** uygulamanın otomatik gerçekleştirdiği, magnometre ve gyroscope verilerinin filtre edilerek yeryüzü çoğrafyasına göre referans bir değer alınarak yapılan kalibrasyon yöntemidir.
 * **2. kalibrasyon;** Bizim elle yapmamız gereken kalibrasyondur. Başımızı(Kafamızı) referans (istediğimiz noktaya) noktasına getirdikten sonra menu çubuğundan pusula iconuna tıklamamız gerekmektedir. Bu kalibrasyon bizim kafamızın yeryüzüne göre(Kalibrasyon 1'e göre) orjinini(merkez noktasını) belirtmektedir. Bu 2. kalibrasyondan sonra kafanızı nereye çevirirseniz araç kamerası o noktaya doğru hareket edecektir.
     <br><br>
- ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/vr_aciklama.png)
-<br>   
+ ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/vr_aciklama.png)<br>   
 # Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues)<br>
-<br>
 ### UYGULAMA ICON 'UMUZ:
 
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/raspi_car.png)
