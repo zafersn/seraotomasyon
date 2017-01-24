@@ -217,6 +217,31 @@ VR Arayüzünde dikkat etminiz gereken nokta, cihazın sensorlerinin kalibrasyon
 
 # Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues)<br>
 
+## WINDOWS:
+
+### AMAÇ VE GÖREVLERİ:
+* Raspberry pi ile yapılmış olan rc-arabanın kontrolünü sağlamak.
+* Kullanıcı için sade ve kolay görsel arayüz.
+
+
+### WINDOWS "Pi_CAR" UYGULAMA KURULUMU:
+Pi_CAR windows uygulamasında camera desteği yoktur. Kamera görüntüsünü olmadan aracı kullanmak isteyenler için ücretsiz bir şekilde kullanıma sunulmuştur.
+* Uygulamanın kurulumu son derece basittir. Sadece yapılması gereken uygulama setup dosyasını kurmak yeterlidir.<br>
+<p align="center">
+ <a href="https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/Google.png"/></a>
+</p>
+
+### UYGULAMA KULLANIMI VE İPUCULARI  <br>
+
+* Windows uygulaması; aracı kontrol etmek için şuanda sadece Fly joystick desteği bulunmaktadir.<br><br>
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20170123_013829_033.jpg)<br>   
+* Winodws kontrol arayüzünde dikkat edilmesi gerekli nokta,maksimum hız ayarıdır.\n Burada maksimum hız ayarı, aracın maksimum çıkabileceği hızını belirtmektedir.Maksimum hız ayarını belirlerken raspberry pi' nin ürettiği pwm aralığı göz önüne alınmıştır. <b> Bu aralık 0-100 'dür</b>. Yani araç için belirleyeceğiniz maksimum hız aralığı <b> 0-100 </b> arasında olmalıdır.
+
+# ÖNEMLİ NOT:
+**Bu windows uygulamasının asıl amacı Andorid üzerinde VR kontrol arayüzünün kullanılması sırasında android uygulamaya alternatif olarak aracın hareket ettirilmesini sağlamaktır.**
+
+
+
 ### UYGULAMA ICON 'UMUZ:
 
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/raspi_car.png)
