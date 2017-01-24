@@ -200,14 +200,15 @@ Araçın ve kameranın kontrolünün sağlandığı 2 adet joystick kontrol aray
   Joystick kontrol arayüzünde dikkat edilmesi gerekli nokta,maksimum hız ayarıdır.\n Burada maksimum hız ayarı, aracın maksimum çıkabileceği hızını belirtmektedir, kamera hızı sabit olarak ayarlanmıştır.Maksimum hız ayarını belirlerken raspberry pi\' nin ürettiği pwm aralığı göz önüne alınmıştır. <b> Bu aralık 0-100 \'dür</b>.
     Yani araç için belirleyeceğiniz hız aralığı <b> 0-100 </b> arasında olmalıdır.
     
-    <b> Anlaşılmayan bir konu,öneriniz veya istekleriniz için lütfen [sorunuz!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues).</b>
+# Anlaşılmayan bir konu,öneriniz veya istekleriniz için lütfen [sorunuz!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues). 
+ <br>
 
 ## VR Kontrol Arayüzü
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Screenshot_20170122-205445.png)
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Screenshot_20170122-205445.png)
 <br>
 
- # Anlaşılmayan bir konu,öneriniz veya istekleriniz için lütfen [sorunuz!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues). 
+# Anlaşılmayan bir konu,öneriniz veya istekleriniz için lütfen [sorunuz!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues). 
  <br>
 
 <br>
