@@ -197,8 +197,8 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Joysitck_aciklma.png)
 
 Araçın ve kameranın kontrolünün sağlandığı 2 adet joystick kontrol arayüzü mevcuttur. Bu arayüzlerden soldaki araç'ın yön kontrolünü, sağdaki ise araç üzerindeki kamera' nın yön kontrolünü sağlamaktadır.<br>
-  Joystick kontrol arayüzünde dikkat edilmesi gerekli nokta,maksimum hız ayarıdır.\n Burada maksimum hız ayarı, aracın maksimum çıkabileceği hızını belirtmektedir, kamera hızı sabit olarak ayarlanmıştır.Maksimum hız ayarını belirlerken raspberry pi\' nin ürettiği pwm aralığı göz önüne alınmıştır. <b> Bu aralık 0-100 \'dür</b>.
-    Yani araç için belirleyeceğiniz hız aralığı <b> 0-100 </b> arasında olmalıdır.
+  Joystick kontrol arayüzünde dikkat edilmesi gerekli nokta,maksimum hız ayarıdır.\n Burada maksimum hız ayarı, aracın maksimum çıkabileceği hızını belirtmektedir, kamera hızı sabit olarak ayarlanmıştır.Maksimum hız ayarını belirlerken raspberry pi' nin ürettiği pwm aralığı göz önüne alınmıştır. <b> Bu aralık 0-100 'dür</b>.
+    Yani araç için belirleyeceğiniz maksimum hız aralığı <b> 0-100 </b> arasında olmalıdır.
     
 # Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues) 
  <br>
@@ -207,7 +207,10 @@ Araçın ve kameranın kontrolünün sağlandığı 2 adet joystick kontrol aray
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Screenshot_20170122-205445.png)
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Screenshot_20170122-205445.png)
 <br>
-
+VR Arayüzünde dikkat etminiz gereken nokta, cihazın sensorlerinin kalibrasyonudur.Uygulamada 2 türlü sensor kalibrasyon yapılmaktadır. 
+* **1. kalibrasyon;** uygulamanın otomatik gerçekleştirdiği, magnometre ve gyroscope verilerinin filtre edilerek yeryüzü çoğrafyasına göre referans bir değer alınarak yapılan kalibrasyon yöntemidir.
+* **2. kalibrasyon;** Bizim elle yapmamız gereken kalibrasyondur. Başımızı(Kafamızı) referans (istediğimiz noktaya) noktasına getirdikten sonra menu çubuğundan pusula iconuna tıklamamız gerekmektedir. Bu kalibrasyon bizim kafamızın yeryüzüne göre(Kalibrasyon 1'e göre) orjinini(merkez noktasını) belirtmektedir. Bu 2. kalibrasyondan sonra kafanızı nereye çevirirseniz araç kamerası o noktaya doğru hareket edecektir.
+    <br><br>
 # Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues)
  <br>
 
