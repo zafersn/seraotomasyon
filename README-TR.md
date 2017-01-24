@@ -236,7 +236,9 @@ Pi_CAR windows uygulamasında camera desteği yoktur. Kamera görüntüsünü ol
 * Windows uygulaması; aracı kontrol etmek için şuanda sadece Fly joystick desteği bulunmaktadir.<br><br>
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20170123_013829_033.jpg)<br>   
 * Winodws kontrol arayüzünde dikkat edilmesi gerekli nokta,maksimum hız ayarıdır. Burada maksimum hız ayarı, aracın maksimum çıkabileceği hızını belirtmektedir.Maksimum hız ayarını belirlerken raspberry pi' nin ürettiği pwm aralığı göz önüne alınmıştır. <b> Bu aralık 0-100 'dür</b>. Yani araç için belirleyeceğiniz maksimum hız aralığı <b> 0-100 </b> arasında olmalıdır.
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/windows_aciklama.png)<br>
+<br><br>
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/windows_aciklama.png)<br><br>
+
 # ÖNEMLİ NOT:
 **Bu windows uygulamasının asıl amacı Andorid üzerinde VR kontrol arayüzünün kullanılması sırasında android uygulamaya alternatif olarak aracın hareket ettirilmesini sağlamaktır.**
 
