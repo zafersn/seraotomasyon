@@ -204,13 +204,16 @@ Araçın ve kameranın kontrolünün sağlandığı 2 adet joystick kontrol aray
  <br>
 
 ## VR Kontrol Arayüzü
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Screenshot_20170122-205445.png)
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Screenshot_vr.png)
+<br> <br>
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Screenshot_20170122-205445.png)
 <br>
 VR Arayüzünde dikkat etminiz gereken nokta, cihazın sensorlerinin kalibrasyonudur.Uygulamada 2 türlü sensor kalibrasyon yapılmaktadır. 
 * **1. kalibrasyon;** uygulamanın otomatik gerçekleştirdiği, magnometre ve gyroscope verilerinin filtre edilerek yeryüzü çoğrafyasına göre referans bir değer alınarak yapılan kalibrasyon yöntemidir.
 * **2. kalibrasyon;** Bizim elle yapmamız gereken kalibrasyondur. Başımızı(Kafamızı) referans (istediğimiz noktaya) noktasına getirdikten sonra menu çubuğundan pusula iconuna tıklamamız gerekmektedir. Bu kalibrasyon bizim kafamızın yeryüzüne göre(Kalibrasyon 1'e göre) orjinini(merkez noktasını) belirtmektedir. Bu 2. kalibrasyondan sonra kafanızı nereye çevirirseniz araç kamerası o noktaya doğru hareket edecektir.
     <br><br>
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/vr_aciklama.png)
+<br>    
 # Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues)
  <br>
 
