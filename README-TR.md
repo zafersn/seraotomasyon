@@ -84,7 +84,7 @@ Video'lu anlatım:
 <br>
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/youtube%20play2.png)](https://youtu.be/yNLug0DhQlc)
 
-## ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/android-icon64x64.png) ANDROID:<br>   
+## ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/android-icon32x32.png) ANDROID:<br>   
 
 ### AMAÇ VE GÖREVLERİ:
 * Raspberry pi ile yapılmış olan rc-arabanın ve üzerindeki cameranın kontrolünü sağlamak.
@@ -217,7 +217,7 @@ VR Arayüzünde dikkat etminiz gereken nokta, cihazın sensorlerinin kalibrasyon
 
 # Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues)<br>
 
-## ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Microsoft-windows-8-icon64x64.png) WINDOWS: <br>   
+## ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Microsoft-windows-8-icon32x32.png) WINDOWS: <br>   
 
 ### AMAÇ VE GÖREVLERİ:
 * Raspberry pi ile yapılmış olan rc-arabanın kontrolünü sağlamak.
