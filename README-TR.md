@@ -188,7 +188,10 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 * PWM ORANI ayarını, kontrol ekranın da sağ üst köşede `Ayarlar` butonundan tekrar `Ayarlar` sekmesine basarak ulaşabilirsiniz.<br>!![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/Screenshot_20160713-205757.png)<br>![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/Screenshot_20160713-205807.png)<br><br>
 * Girebileceğinz PWM ORANI aralığı **minimum ve maksimum olarak 1-4 arasında integer ve double tipinde** değerlerdir.
  <br>
- # Anlaşılmayan bir konu,öneriniz veya istekleriniz için lütfen [sorunuz!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues). <br>
+ 
+ # Anlaşılmayan bir konu,öneriniz veya istekleriniz için lütfen [sorunuz!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues). 
+ <br>
+ 
 ##  Joystick Kontrol Arayüzü
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20170123_013536_641.jpg)<br><br>
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Joysitck_aciklma.png)
@@ -203,7 +206,10 @@ Araçın ve kameranın kontrolünün sağlandığı 2 adet joystick kontrol aray
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Screenshot_20170122-205445.png)
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Screenshot_20170122-205445.png)
 <br>
-# Anlaşılmayan bir konu,öneriniz veya istekleriniz için lütfen [sorunuz!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues) <br>
+
+# Anlaşılmayan bir konu,öneriniz veya istekleriniz için lütfen [sorunuz!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues) 
+
+<br>
 ### UYGULAMA ICON 'UMUZ:
 
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/raspi_car.png)
