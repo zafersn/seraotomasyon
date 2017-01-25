@@ -3,6 +3,14 @@
 
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/yotubeT1.png)](https://youtu.be/J8r_bX_RNzU)
 
+## **------ İÇİNDEKİLER ------**
+* KULLANILAN MALZEMELER
+* RASPBERRY PI KURULUMU
+* ÖRNEK ARAÇ SEÇİMİ VE ARACINIZA UYGUN RASPBERRY Pİ PİN BAĞLANTI ŞEMASI
+* ANDROID UYGULAMA KURULUMU VE KULLANIM KILAVUZU
+* WINDOWS UYGULAMA KURULUMU VE KULLANIM KILAVUZU
+* TEST VİDEOSU
+* HIZLI KURULUM
 
 ## Kullanılan Malzemeler
 <br>
@@ -79,7 +87,7 @@ Yazma işlemi tamamlandıktan sonra SD kartınızı bilgisayardan çıkartıp Ra
 Artık yapmanız gereken SADECE Raspberry' nize  gerekli güç ve motor sürücüleri bağlantılarını yaptıktan sonra araca monte etmenizdir.
 <br>
 
-## Araç seçimi ve aracınıza uygun pin pağlantısı için [tıklayınız!](https://github.com/zafersn/seraotomasyon/blob/master/select_vehicle_type.md)
+## Örnek araç seçimi ve aracınıza uygun pin pağlantısı için [tıklayınız!](https://github.com/zafersn/seraotomasyon/blob/master/select_vehicle_type.md)
 
 
 # Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues)
@@ -285,18 +293,24 @@ Raspbery pi  pin bağlantılarını ve yapılmış örnek araçlar için  Bu [**
 ## **ADIM 3**
 Android kontrol yazılımıda  Bu [**linteken**](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght) indirerek
 telefonunuza  yükleyiniz.
-## **ADIM 4** 
-Windows kontrol yazılımıda  Bu [**linteken**](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght) indirerek
-bilgisayarınıza indiriniz ve yükleyiniz.
-<br><br><br>
-**ve  işlem tamam raspberry pi bağlantıları doğru yaptıysanız artık aracı kontrol etmeye başlayabilirsiniz.**
 
 <p align="center">
  <a href="https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/Google.png"/></a>
 </p>
-<br><br>
+
+## **ADIM 4** 
+Windows kontrol yazılımıda  Bu [**linteken**](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght) indirerek
+bilgisayarınıza indiriniz ve yükleyiniz.
 
 <p align="center">
  <a href="https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/windows_pi_cart.png"/></a>
 </p>
+
+<br><br><br>
+**ve  işlem tamam raspberry pi bağlantıları doğru yaptıysanız artık aracı kontrol etmeye başlayabilirsiniz.**
+
+
+<br><br>
+
+
 
