@@ -49,9 +49,10 @@ MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 24
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/devre%20sematic.PNG)<br><br>
 
 
+# Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues)
 
 
-<br>
+<br><br>
 
 # Araç Tipi 2: TANK Tipi Araç <br><br>
 
