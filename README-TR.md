@@ -12,7 +12,7 @@ Malzeme Adı| Adet
 Raspberry Pi| 1
 Raspberry Pi Camera Modülü| 1
 Wi-Fi Adaptör| 1 (Pi 3 için isteğe bağlı)
-L298N,BTS7960,L293 Motor Sürücü| 1 yada 2 
+L298N,BTS7960,L293,ESC Motor Sürücü| 1 yada 2 
 DC MOTOR|  2  yada   4
 12V Lipo Batarya| 1
 Jumper Kablo | ~
@@ -24,7 +24,7 @@ Araç Şasi (Gövdesi)| 1
 ### AMAÇ VE GÖREVLER:
 
 * Raspberry pi camera modülü kullanarak görüntünün alınması ve raspberry pi üzerinden telefona aktarılması.
-* Arduino ve Telefon arasında bağlantının kurulması.
+* Telefon dan ve ya bilgisayar dan gelen verileri işleyerek motor sürücülere aktarılması.
 
 ### RASPBERRY PI KURULUMU:
 Raspberry pi kurulumu oldukça basittir.Öncelikle,
@@ -33,8 +33,7 @@ Win32DiskImager SD karta işletim sistemi yazdırmamız için gerekli olan progr
 İndirmek için [**Tıklayınız**](http://www.gezginler.net/indir/win32-disk-imager.html)
 
 ## 1. Raspbian İşletim Sistemi İndirme;
-Raspberry pi mize kuracağımız araç kontrol yazılımlarınıda içinde bulunduran işletim sistemini SD karta yazdımamız gerekmektedir.Burada DİKKAT edilmesi gereken nokta, aşağıda linkleri verilen işletim sistemlerini seçerken elinizde bulunan Wi-Fi adaptörlere göre 
-işletim sistemini indirmeniz ve sd karta yazdırmanızdır.İşletim sistemleri ve destekledikleri modemler aşağıda verilmektedir.
+Raspberry pi mize kuracağımız araç kontrol yazılımlarınıda içinde bulunduran işletim sistemini SD karta yazdımamız gerekmektedir.Burada DİKKAT edilmesi gereken nokta, **aşağıda linkleri verilen işletim sistemlerini seçerken elinizde bulunan Wi-Fi adaptörlere ve raspberry pi modelinize göre işletim sistemini indirmeniz ve sd karta yazdırmanızdır.** İşletim sistemleri ve destekledikleri modemler aşağıda verilmektedir.
 
 ### Raspberry Pi 3  İçin indirilebilir işletim sistemi
 Raspberry pi 3 için 2 alternatif yöntemimiz vardır;<br>
@@ -68,16 +67,17 @@ Desteklenen diğer çipsetler ve cihazlar için detaylı bilgi:http://elinux.org
 
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/win32diskimager.jpg)
 
-Sd kartınızın bilgisayara takılı olduğundan emin olduktan sonra Device kısmında görebilirsiniz. Ardından Write butonuna tıklayıp yazma işlemini başlatıyoruz. Yazma işlemi yaklaşık 2-3 dk sürmektedir. Yazma işleminin bitmesini yeni açılan pencerede "Write Succesful." yazısını görene kadar bekleyiniz.
+Sd kartınızın bilgisayara takılı olduğundan emin olduktan sonra Device kısmında görebilirsiniz. Ardından Write butonuna tıklayıp yazma işlemini başlatıyoruz. Yazma işlemi yaklaşık 5-7 dk sürmektedir. Yazma işleminin bitmesini yeni açılan pencerede "Write Succesful." yazısını görene kadar bekleyiniz.
 
 
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/Write%20Succesful.png)
 ## 3.Bağlantılar ve Çalıştırma
-
+<br>
+# Pi_CAR Wi-Fi  Şifresi: TRaspberry
+<br>
 Yazma işlemi tamamlandıktan sonra SD kartınızı bilgisayardan çıkartıp Raspberry pi'nize takabilirsiniz.
 Artık yapmanız gereken SADECE Raspberry' nize  gerekli güç ve motor sürücüleri bağlantılarını yaptıktan sonra araca monte etmenizdir.
-
-# Pi_CAR Wi-Fi  Şifresi: TRaspberry
+<br>
 
 ## Araç seçimi ve aracınıza uygun pin pağlantısı için [tıklayınız!](https://github.com/zafersn/seraotomasyon/blob/master/select_vehicle_type.md)
 
@@ -111,7 +111,7 @@ Android uygulamamızı yükledikten sonra normal şartlar altında araç üzerin
   Bu yöntem sizin bir android geliştirici olduğunuzu varsayarak anlatılmaktadır.<br>
     * [Buradan!]( https://developer.android.com/studio/index.html) android Studio'yu indiriniz.
     * İndirdikten ve gerekli ayarlamaları yaptıktan sonra Telefonunuzun geliştirici seçeneklerini aktif etmeniz gerekmektedir.Bunun için;
-      * Ayarlar ==> Telefon Hakkında ==> Derleme Numarasına 5 defa ard arda tıklayınız.Sizin artık bir geliştiric olduğunuzu söylecektir.<br>
+      * Ayarlar ==> Telefon Hakkında ==> Derleme Numarasına 5 defa ard arda tıklayınız.Sizin artık bir geliştirici olduğunuzu söylecektir.<br>
       yine aynı şekilde 
       * Ayarlar ==> Geliştirici Seçenekleri ==> Açık konumuna getiriniz.
       * Ayarlar ==> Geliştirici Seçenekleri ==> USB hata ayıklamasını aktif hale getiriniz
@@ -176,7 +176,7 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 <br><br>
  ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/Screenshot_description_githup.png)<br><br>
  `Seek bar (Hız ayarı)` , `Kamera Açma / Kapama` ,`Wi-Fi durum göstergesi`  ve `Yön tuşları` mevcuttur.<br>
-*  **Seek bar(Hız ayarı)** 15 dilimden oluşmaktadır ve hız katsayısı 17'dir.Yani seek bar' ın herbir hareketi pwm'de 17'nin katları şeklinde bir oynama yapmaktadır.Seek bar 5. kademede ise üretilen pwm= 5*17 = 85 'tir.
+*  **Seek bar(Hız ayarı)** 15 dilimden oluşmaktadır ve hız katsayısı 6.66'dir.Yani seek bar' ın herbir hareketi pwm'de 6.66'nin katları şeklinde bir oynama yapmaktadır.Seek bar 5. kademede ise üretilen pwm= 5*6.66 = 33.3  'tir. Ve 33 olarak yuvarlanır.
 *  **Menü tuşları (Kamera Aç/Kapa ve WiFi Göstergesi)** Seekbar 'ın yanında yer alan diğer araç kontrol fonksiyonları;<br> Kamera görüntüsünü araç üzerinden almamıza yarayan Kamera açma ve kapatma butonu "  ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/ic_eye.png) AÇ ", " ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/ic_eye_off.png) KAPAT ", Aynı şekilde uygulamamızın Raspberry Pi üzerinde oluşturduğumuz Wi-Fi ağa bağlanıp bağlanılmadığını gösteren bir gösterge."![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/ic_wifi_on.png) BAĞLI DEĞİL", " ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/ic_wifi_off.png) BAĞLI "
 *  **Yön tuşları** seek bar(Hız ayarı)'dan alınan verinin yönlere ayrılmasını sağlar. Aracın gidiş yönüne göre pwm değerinin başına `+` ve ya `-` işareti getirilir. **Örn;**<br><br>
  200:200     // ileri git. ( 2 motorda 200pwm ile çalışır )<br>
