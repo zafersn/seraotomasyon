@@ -9,6 +9,7 @@
 * Bu araçta ileri geri hareketler için bir adet motor ve bu motoru sürmek için bir motor sürücü kullanıldı.
  * Motor sürücü olarak burada BTS7960 tercih edildi.
 * Direksiyon hareketleri için servo motor kullanıldı.<br>
+
 ### MALZEME LİSTESİ
 Malzeme Adı| Adet
 ----| ---- 
