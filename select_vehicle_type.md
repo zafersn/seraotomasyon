@@ -59,7 +59,9 @@ MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 24
 * Aşağıdaki resimlerden de anlaşılabileceği gibi sağa ve sola dönüşlerde sağ ve sol motorların dönüş hızı farkından faydalanılır.
 <br>
 
-<a href="https://imgflip.com/gif/1ibcq5"><img src="https://i.imgflip.com/1ibcq5.gif" title="made at imgflip.com"/><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/Google.png"/> </a>
+<p align="center">
+<a href="https://www.youtube.com/watch?v=06LrVjRDfS8"><img src="https://i.imgflip.com/1ibcq5.gif" title="made at imgflip.com"/></a>
+</p>
 
 <br>
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20160201_001625.jpg)<br><br>
