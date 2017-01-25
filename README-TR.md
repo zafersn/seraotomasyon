@@ -2,7 +2,7 @@
 # ----------------------------- Pi_CAR -----------------------------
 
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/yotubeT1.png)](https://youtu.be/J8r_bX_RNzU)
-##  <p align="center" ><h1><b>------ İÇİNDEKİLER ------**</b></h1></p>
+ <p align="center" ><h1>------ İÇİNDEKİLER ------</h1></p>
  
 * KULLANILAN MALZEMELER
 * RASPBERRY PI KURULUMU
