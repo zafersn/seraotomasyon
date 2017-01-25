@@ -1,5 +1,9 @@
 
 # Araç Tipi 1:Tek motorlu Servo direksiyonLu RC-ARABA<br><br>
+* Bu araçta ileri geri hareketler için bir adet motor ve bu motoru sürmek için bir motor sürücü kullanıldı.
+ * Motor sürücü olarak burada BTS7960 tercih edildi.
+* Direksiyon hareketleri için servo motor kullanıldı.
+## BAĞLANTI ŞEMASI AŞAĞIDAKİ GİBİDİR.
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20170118_191443_488.jpg)<br><br>
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20170109_181102.jpg)<br>
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20161226_171613.jpg)<br>
