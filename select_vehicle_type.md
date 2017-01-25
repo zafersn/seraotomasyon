@@ -9,6 +9,20 @@
 * Bu araçta ileri geri hareketler için bir adet motor ve bu motoru sürmek için bir motor sürücü kullanıldı.
  * Motor sürücü olarak burada BTS7960 tercih edildi.
 * Direksiyon hareketleri için servo motor kullanıldı.<br>
+### MALZEME LİSTESİ
+Malzeme Adı| Adet
+----| ---- 
+Raspberry Pi| 1
+Raspberry Pi Camera Modülü| 1
+Wi-Fi Adaptör| 1 (Pi 3 için isteğe bağlı)
+L298N,BTS7960,L293 Motor Sürücü| 1 
+DC MOTOR|  1  
+SERVO MOTOR| 3
+12V Lipo Batarya| 1
+Jumper Kablo | ~
+Araç Şasi (Gövdesi)| 1
+5V Güç Kaynağı  (LM2576 DC-DC REGULATOR 12V to 5V)|1
+<br>
 
 ## BAĞLANTI ŞEMASI AŞAĞIDAKİ GİBİDİR. <br><br>
 
@@ -25,20 +39,7 @@ MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 24
 5V GUC VCC  | 5V INPUT
 5V GUC GND | GND INPUT
 
-### MALZEME LİSTESİ
-Malzeme Adı| Adet
-----| ---- 
-Raspberry Pi| 1
-Raspberry Pi Camera Modülü| 1
-Wi-Fi Adaptör| 1 (Pi 3 için isteğe bağlı)
-L298N,BTS7960,L293 Motor Sürücü| 1 
-DC MOTOR|  1  
-SERVO MOTOR| 3
-12V Lipo Batarya| 1
-Jumper Kablo | ~
-Araç Şasi (Gövdesi)| 1
-5V Güç Kaynağı  (LM2576 DC-DC REGULATOR 12V to 5V)|1
-<br>
+
 
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/DEVRE%20semasi%20.PNG)<br><br>
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/devre%20sematic.PNG)<br><br>
