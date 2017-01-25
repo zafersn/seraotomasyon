@@ -53,8 +53,12 @@ MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 24
 
 <br>
 
-# Araç Tipi 2: Kabaca Sağ ve sol motor olmak üzere 2 adet yön kontrol motoru vardır. Çalışma şekli tank şeklindedir.<br><br>
+# Araç Tipi 2: TANK Tipi Araç <br><br>
 
+* Sağ ve sol motor olmak üzere 2 adet yön kontrol motor mantığı vardır. Çalışma şekli tank şeklindedir.
+* Aşağıdaki resimlerden de anlaşılabileceği gibi sağa ve sola dönüşlerde sağ ve sol motorların dönüş hızı farkından faydalanılır.
+
+<br>
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20160201_001625.jpg)<br><br>
 
 
