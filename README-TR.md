@@ -281,16 +281,22 @@ Pi_CAR windows uygulamasında camera desteği yoktur. Kamera görüntüsünü ol
 <br>
 
 ## **ADIM 2**
-Arduino kontrol yazılımını Bu [**linteken**](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/tree/master/T%C3%9CRK%C3%87E/V2/androidToRaspberryTurkce) indirerek
-Arduino' ya yükleyiniz.
-
+Raspbery pi  pin bağlantılarını ve yapılmış örnek araçlar için  Bu [**linteken**](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/tree/master/T%C3%9CRK%C3%87E/V2/androidToRaspberryTurkce) bakınız!
 ## **ADIM 3**
 Android kontrol yazılımıda  Bu [**linteken**](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght) indirerek
 telefonunuza  yükleyiniz.
+## **ADIM 4** 
+Windows kontrol yazılımıda  Bu [**linteken**](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght) indirerek
+bilgisayarınıza indiriniz ve yükleyiniz.
 <br><br><br>
-**ve  işlem tamam arduino motor sürücüleri arasındaki bağlantıları doğru yaptıysanız artık aracı kontrol etmeye başlayabilirsiniz.**
+**ve  işlem tamam raspberry pi bağlantıları doğru yaptıysanız artık aracı kontrol etmeye başlayabilirsiniz.**
 
 <p align="center">
  <a href="https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/Google.png"/></a>
+</p>
+<br><br>
+
+<p align="center">
+ <a href="https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/windows_pi_cart.png"/></a>
 </p>
 
