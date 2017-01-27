@@ -239,7 +239,7 @@ VR Arayüzünde dikkat etminiz gereken nokta, cihazın sensorlerinin kalibrasyon
 
 ### WINDOWS "Pi_CAR" UYGULAMA KURULUMU VE KONFİGüRASYON AYARLARI:
 Pi_CAR windows uygulamasında camera desteği yoktur. Kamera görüntüsünü olmadan aracı kullanmak isteyenler için ücretsiz bir şekilde kullanıma sunulmuştur.
-* Uygulamanın aktivasyonu için ilk kurulum esnasında internet bağlantınızın olması gerekmektedir.Bunun dışında dikkat edilmesi gereken bir nokta yoktur.
+* **Uygulamanın aktivasyonu için ilk kurulum esnasında internet bağlantınızın olması gerekmektedir.**Bunun dışında dikkat edilmesi gereken bir nokta yoktur.
 * Uygulamanın kurulumu son derece basittir. Sadece yapılması gereken uygulama setup dosyasını kurmak yeterlidir.<br>
 
 <p align="center">
