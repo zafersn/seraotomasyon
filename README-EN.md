@@ -83,12 +83,11 @@ After the writing process is completed, you can remove your SD card from the com
 **All you need to do now is mount the car after you have made the necessary power and motor drive connections to Raspberry.**
 <br>
 
-## [Click!] on the sample vehicle selection and the appropriate pin connection of the vehicle. (https://github.com/zafersn/seraotomasyon/blob/master/select_vehicle_type.md)
+## [Click!](https://github.com/zafersn/seraotomasyon/blob/master/select_vehicle_type.md) on the sample vehicle selection and the appropriate pin connection of the vehicle. 
 
 
 
-
-# please you [ask!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues) for  subject that is not understood  or proposal in project narration 
+# Please  [ask!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues) what you do not understand.
 
 <br>
 Video Description: 
