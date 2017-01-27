@@ -31,7 +31,7 @@ Araç Şasi (Gövdesi)| 1
 ## RASPBERRY PI:
 ### AMAÇ VE GÖREVLER:
 
-* Raspberry pi camera modülü kullanarak görüntünün alınması ve raspberry pi üzerinden telefona aktarılması.
+* Raspberry pi kamera modülü kullanarak görüntünün alınması ve raspberry pi üzerinden telefona aktarılması.
 * Telefon dan ve ya bilgisayar dan gelen verileri işleyerek motor sürücülere aktarılması.
 
 ### RASPBERRY PI KURULUMU:
@@ -87,7 +87,7 @@ Yazma işlemi tamamlandıktan sonra SD kartınızı bilgisayardan çıkartıp Ra
 Artık yapmanız gereken SADECE Raspberry' nize  gerekli güç ve motor sürücüleri bağlantılarını yaptıktan sonra araca monte etmenizdir.
 <br>
 
-## Örnek araç seçimi ve aracınıza uygun pin pağlantısı için [tıklayınız!](https://github.com/zafersn/seraotomasyon/blob/master/select_vehicle_type.md)
+## Örnek araç seçimi ve aracınıza uygun pin bağlantısı için [tıklayınız!](https://github.com/zafersn/seraotomasyon/blob/master/select_vehicle_type.md)
 
 
 # Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues)
