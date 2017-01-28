@@ -25,7 +25,7 @@ DC MOTOR|  2  yada   4
 12V Lipo Batarya| 1
 Jumper Kablo | ~
 Araç Şasi (Gövdesi)| 1
-5V Güç Kaynağı|1
+5V Güç Kaynağı [**(LM2596-ADJ)**](http://www.robotistan.com/mini-ayarlanabilir-3a-voltaj-regulator-karti-lm2596-adj) ya da [**(2A Mini)**]( http://www.robotistan.com/2a-mini-ayarlanabilir-voltaj-dusurucu-regulator-karti)|1
 <br>
 
 ## RASPBERRY PI:
