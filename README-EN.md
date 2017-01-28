@@ -230,9 +230,7 @@ Let's briefly explain the working principle and the introduction of the applicat
 
 
 
-## TEST VIDEO:
-[![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/testvd1.png)](https://youtu.be/qbkH2KFcKqw)
-[![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/play_video2.png)](https://youtu.be/CT-hgXIPRIk)<br><br>
+
 
 ## ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Microsoft-windows-8-icon32x32.png)    WINDOWS: <br>   
 
@@ -256,6 +254,9 @@ Let's briefly explain the working principle and the introduction of the applicat
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/windows_aciklama.png)<br><br>
 **NOTE:**
 * The main purpose of this windows application, during use of the VR control interfaces on Android, it is possible to move the vehicle  as an alternative to the android application.
+
+
+
 -------------------------------------------------------------------------------------
 <br><br>
 #<p align="center"> <b>BRIEF AND ABSTRACT INSTALLATION</b></p>
@@ -263,6 +264,9 @@ Let's briefly explain the working principle and the introduction of the applicat
 <p align="center"> <b>FOR DETAIL INFORMATION AND INISTALLATION DETAILS, PLEASE START AT THE TOP OF THE PAGE.!!</b>
 <img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images//images/raw.gif" alt="DETAYLI ANLATIM VE KURULUM" align="middle" />
 </p>
+## TEST VIDEO:
+[![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V1Images/images/testvd1.png)](https://youtu.be/qbkH2KFcKqw)
+[![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/play_video2.png)](https://youtu.be/CT-hgXIPRIk)<br><br>
 
 ## **STEP 1:**
 <br>
@@ -273,16 +277,23 @@ Let's briefly explain the working principle and the introduction of the applicat
 <br>
 
 ## **STEP 2**
-Download the Arduino control software from this  [**link**](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/tree/master/ENGLISH/V2/androidToRaspberryEnglishInformation) and upload to Arduino. 
+## [Click!](https://github.com/zafersn/seraotomasyon/blob/master/select_vehicle_type.md) on the sample vehicle selection and the appropriate pin connection of the vehicle. 
 
 ## **STEP 3**
 Download the Android control software from this  [**link**](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght) and upload to Android Phone. 
 <br><br><br>
-**And the operation is complete. If you have correctly connected the Arduino motor drivers, you can now start checking the vehicle.**
+
 
 <p align="center">
  <a href="https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images//images/Google.png"/></a>
 </p>
+## **ADIM 4** 
+Download and installation the windows control software from this [**link**](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght) 
 
+<p align="center">
+ <a href="https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/windows_pi_cart.png"/></a>
+</p>
 
+<br><br><br>
+**And the operation is complete. If you have correctly connected the Raspberry pi motor drivers, you can now start checking the vehicle.**
 
