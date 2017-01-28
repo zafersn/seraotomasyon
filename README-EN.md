@@ -91,7 +91,7 @@ After the writing process is completed, you can remove your SD card from the com
 
 <br>
 **Video Description:**
-<br>
+<br><br>
 [![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images/images/youtube%20play2.png)](https://youtu.be/yNLug0DhQlc)
 
 
