@@ -270,17 +270,17 @@ Let's briefly explain the working principle and the introduction of the applicat
 
 ## **STEP 1:**
 <br>
-1.If you want to manage Pi_CAR via Raspberry pi 2 or  the built-in Wi-Fi module on the Raspberry Pi 3.Download the operating system on [**this link**](https://drive.google.com/open?id=0B6yjwSAqPTgfdEV1eTlfZ0lVbW8)  and print to the SD card.
+* 1.If you want to manage Pi_CAR via Raspberry pi 2 or  the built-in Wi-Fi module on the Raspberry Pi 3.Download the operating system on [**this link**](https://drive.google.com/open?id=0B6yjwSAqPTgfdEV1eTlfZ0lVbW8)  and print to the SD card.
 <br>
 
-2.If you want to manage Pi_CAR by using Wi-Fi module externally mounted on raspberry pi 3. Download the operating system on [**this link**](https://drive.google.com/open?id=0B6yjwSAqPTgfR3lKQVl5SXRpbFE)  and print to the SD card.
+* 2.If you want to manage Pi_CAR by using Wi-Fi module externally mounted on raspberry pi 3. Download the operating system on [**this link**](https://drive.google.com/open?id=0B6yjwSAqPTgfR3lKQVl5SXRpbFE)  and print to the SD card.
 <br>
 
 ## **STEP 2**
-## [Click!](https://github.com/zafersn/seraotomasyon/blob/master/select_vehicle_type.md) on the sample vehicle selection and the appropriate pin connection of the vehicle. 
+* [Click!](https://github.com/zafersn/seraotomasyon/blob/master/select_vehicle_type.md) on the sample vehicle selection and the appropriate pin connection of the vehicle. 
 
 ## **STEP 3**
-Download the Android control software from this  [**link**](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght) and upload to Android Phone. 
+* Download the Android control software from this  [**link**](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght) and upload to Android Phone. 
 <br><br><br>
 
 
@@ -288,7 +288,7 @@ Download the Android control software from this  [**link**](https://play.google.
  <a href="https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images//images/Google.png"/></a>
 </p>
 ## **ADIM 4** 
-Download and installation the windows control software from this [**link**](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght) 
+* Download and installation the windows control software from this [**link**](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght) 
 
 <p align="center">
  <a href="https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/windows_pi_cart.png"/></a>
@@ -296,4 +296,7 @@ Download and installation the windows control software from this [**link**](http
 
 <br><br><br>
 **And the operation is complete. If you have correctly connected the Raspberry pi motor drivers, you can now start checking the vehicle.**
+
+* Please  [ask!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues) what you do not understand.
+
 
