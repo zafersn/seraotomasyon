@@ -2,7 +2,7 @@
 # Araç Tipi 1:Tek motorlu Servo direksiyonLu RC-ARABA<br><br>
 
 
-<img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images//images/raw.gif" alt="DETAYLI ANLATIM VE KURULUM" align="middle" />
+<img src="http://gph.is/2joJuHz" alt="DETAYLI ANLATIM VE KURULUM" align="middle" />
 </p>
 
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20170118_191443_488.jpg)<br><br>
