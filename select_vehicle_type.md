@@ -44,9 +44,10 @@ MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 24
 
 * **NOT:** Burada unutmamanız gereken tek nokta raspberry pi 'nizi güç girişlerini doğru yapmanız ve RASPBERRY Pİ'NİZİ ve SERVO MOTOR larınızı aynı kaynaktan doğrudan beslememelisiniz. Yani kısaca LM2676 ile ürettiğiniz 5V 'la hem Raspberry pi hemde Servo motorları çalıştırmayınız.
 
-
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/raspberry%20pi%20pin%20baglantisi%C4%B1.PNG)<br><br>
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/raspber%20pin%20bag%20schematik.PNG)<br><br>
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/servolu_pin%20baglantisi.PNG)
+<br><br>
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/sevolu_pinbaglantisi_schematic.PNG)
+<br><br>
 
 
 # Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues)
@@ -107,7 +108,11 @@ MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 21
 5V GUC VCC  | 5V INPUT
 5V GUC GND | GND INPUT
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/RasPiO-portsplus2-on-pi_1500.jpg)<br><br>
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/pi_tank_pin%20baglantisi.PNG)
 
+<br><br>
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/pin%20baglantisi_tank_schematik.PNG)
+<br><br>
 
 <br><br>
 # Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues)
