@@ -116,8 +116,6 @@ MOTOR DRIVE FOR LEFT ENABLE PIN| GPIO 21
 5V POWER VCC  | 5V INPUT
 5V POWER GND | GND INPUT
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/pin_baglanti_tank_en.PNG)<br><br>
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/pi_tank_pin%20baglantisi.PNG)
-
 <br><br>
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/pin_baglanti_tank_sematik_en.PNG)
 <br><br>
