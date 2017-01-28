@@ -22,7 +22,7 @@ SERVO MOTOR| 3
 12V Lipo Batarya| 1
 Jumper Kablo | ~
 Araç Şasi (Gövdesi)| 1
-5V Güç Kaynağı  (LM2576 DC-DC REGULATOR 12V to 5V)|1
+5V Güç Kaynağı  [**(LM2596-ADJ)**](http://www.robotistan.com/mini-ayarlanabilir-3a-voltaj-regulator-karti-lm2596-adj) or [**(2A Mini)**]( http://www.robotistan.com/2a-mini-ayarlanabilir-voltaj-dusurucu-regulator-karti)|1
 <br>
 
 ## BAĞLANTI ŞEMASI AŞAĞIDAKİ GİBİDİR. <br><br>
