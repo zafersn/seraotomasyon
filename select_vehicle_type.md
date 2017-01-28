@@ -33,14 +33,10 @@ PİN ADI| GPIO NUMARASI (BCM)
 DİREKSİYON KONTROL SERVO MOTORU| GPIO 16
 KAMERA DİKEY EKSEN HAREKET SERVO MOTORU| GPIO 15
 KAMERA YATAY EKSEN HAREKET SERVO MOTORU| GPIO 14
-SAG MOTOR SURUCU ICIN RIGHT PWM | GPIO 13
-SAG MOTOR SURUCU ICIN LEFT PWM| GPIO 19
-SOL MOTOR SURUCU ICIN RIGHT PWM | GPIO 18
-SOL MOTOR SURUCU ICIN LEFT PWM| GPIO 12
+MOTOR SURUCU ICIN RIGHT PWM | GPIO 13
+MOTOR SURUCU ICIN LEFT PWM| GPIO 19
 MOTOR SURUCU ICIN RIGHT ENABLE PIN| GPIO 23
 MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 24
-MOTOR SURUCU ICIN RIGHT ENABLE PIN| GPIO 20
-MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 21
 5V GUC VCC  | 5V INPUT
 5V GUC GND | GND INPUT
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/RasPiO-portsplus2-on-pi_1500.jpg)<br><br>
@@ -77,6 +73,41 @@ MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 21
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20151122_142027.jpg)
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20151122_141900.jpg)
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20151122_135042.jpg)
+
+### MALZEME LİSTESİ
+Malzeme Adı| Adet
+----| ---- 
+Raspberry Pi| 1
+Raspberry Pi Camera Modülü| 1
+Wi-Fi Adaptör| 1 (Pi 3 için isteğe bağlı)
+L298N,BTS7960,L293 Motor Sürücü| 1 yada 2 
+DC MOTOR|  2 yada 4
+SERVO MOTOR| 2
+12V Lipo Batarya| 1
+Jumper Kablo | ~
+Araç Şasi (Gövdesi)| 1
+5V Güç Kaynağı  [**(LM2596-ADJ)**](http://www.robotistan.com/mini-ayarlanabilir-3a-voltaj-regulator-karti-lm2596-adj) or [**(2A Mini)**]( http://www.robotistan.com/2a-mini-ayarlanabilir-voltaj-dusurucu-regulator-karti)|1
+<br>
+
+## BAĞLANTI ŞEMASI AŞAĞIDAKİ GİBİDİR. <br><br>
+
+### RASPBERRY Pİ PİN BAĞLANTILARI
+PİN ADI| GPIO NUMARASI (BCM)
+----| ---- 
+KAMERA DİKEY EKSEN HAREKET SERVO MOTORU| GPIO 15
+KAMERA YATAY EKSEN HAREKET SERVO MOTORU| GPIO 14
+SAG MOTOR SURUCU ICIN RIGHT PWM | GPIO 13
+SAG MOTOR SURUCU ICIN LEFT PWM| GPIO 19
+SOL MOTOR SURUCU ICIN RIGHT PWM | GPIO 18
+SOL MOTOR SURUCU ICIN LEFT PWM| GPIO 12
+MOTOR SURUCU ICIN RIGHT ENABLE PIN| GPIO 23
+MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 24
+MOTOR SURUCU ICIN RIGHT ENABLE PIN| GPIO 20
+MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 21
+5V GUC VCC  | 5V INPUT
+5V GUC GND | GND INPUT
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/RasPiO-portsplus2-on-pi_1500.jpg)<br><br>
+
 
 <br><br>
 # Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues)
