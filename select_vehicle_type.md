@@ -1,7 +1,7 @@
 
 # Araç Tipi 1:Tek motorlu Servo direksiyonLu RC-ARABA<br><br>
 
-<p align="center" width="640" height="480" > <b>DETAYLI BİLGİ VE  VE KURULUM AYRINTILARI İÇİN LÜTFEN SAYFA BAŞINDAN BAŞLAYINIZ !!</b>
+<p align="center" width="640" height="480" > <b>6 X 6 VEHICLE !!</b>
 <img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/giphy.gif" alt="DETAYLI ANLATIM VE KURULUM" align="middle" />
 </p>
 
