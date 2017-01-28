@@ -43,7 +43,7 @@ MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 24
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/RasPiO-portsplus2-on-pi_1500.jpg)<br><br>
 * Burada dikkat etmeniz gereken nokta 5V güç kaynağı dışında pinleri yanlış taktığınızda araç ta veya kamera da sadece yanlış hareketler söz konusu olur. Ama 5V güç kaynağını ters veya yanlış pinlere taktığınız taktirde raspberry de geri dönüşü olmayan hasarlar meydana gelebilir. Raspberry de pinlerden güç girişine alternatif olarak raspberry pi 'nizi micro usb girişinide kullanarabilirsiniz.(Power bank vs diğer alternatif.)
 
-* **NOT:** Burada unutmamanız gereken tek nokta raspberry pi 'nizi güç girişlerini doğru yapmanız ve RASPBERRY Pİ'NİZİ ve SERVO MOTOR larınızı aynı kaynaktan doğrudan beslememelisiniz. Yani kısaca LM2676 ile ürettiğiniz 5V 'la hem Raspberry pi hemde Servo motorları çalıştırmayınız.
+* **NOT:** Burada unutmamanız gereken tek nokta raspberry pi 'nizi güç girişlerini doğru yapmanız ve RASPBERRY Pİ'NİZİ ve SERVO MOTOR larınızı aynı kaynaktan doğrudan beslememelisiniz. Yani kısaca LM2596 ile ürettiğiniz 5V 'la hem Raspberry pi hemde Servo motorları çalıştırmayınız.
 
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/servolu_pin%20baglantisi.PNG)
 <br><br>
