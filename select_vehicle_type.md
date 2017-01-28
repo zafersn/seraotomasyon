@@ -1,9 +1,6 @@
 
 # Araç Tipi 1:Tek motorlu Servo direksiyonLu RC-ARABA<br><br>
 
-<p align="center" width="640" height="480" > <b>6 X 6 VEHICLE !!</b>
-<img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/giphy.gif" alt="DETAYLI ANLATIM VE KURULUM" align="middle" />
-</p>
 
 
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20170118_191443_488.jpg)<br><br>
@@ -63,9 +60,11 @@ MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 24
 * Aşağıdaki resimlerden de anlaşılabileceği gibi sağa ve sola dönüşlerde sağ ve sol motorların dönüş hızı farkından faydalanılır.
 <br>
 
-<p align="center">
-<a href="https://www.youtube.com/watch?v=06LrVjRDfS8"><img src="https://i.imgflip.com/1ibcq5.gif" title="made at imgflip.com"/></a>
-</p>
+
+<p align="center" width="640" height="480" > <b>6 X 6 VEHICLE !!</b>
+<a href="https://www.youtube.com/watch?v=06LrVjRDfS8"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/giphy.gif" alt="DETAYLI ANLATIM VE KURULUM" align="middle" />
+</a></p>
+
 
 <br>
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20160201_001625.jpg)<br><br>
