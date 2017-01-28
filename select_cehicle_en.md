@@ -1,49 +1,50 @@
 
-# Araç Tipi 1:Tek motorlu Servo direksiyonLu RC-ARABA<br><br>
+# Vehicle Type 1: Single-motor, Servo steering <br><br>
 
 
 
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20170118_191443_488.jpg)<br><br>
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20170109_181102.jpg)<br>
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20161226_171613.jpg)<br>
-* Bu araçta ileri geri hareketler için bir adet motor ve bu motoru sürmek için bir motor sürücü kullanıldı.
- * Motor sürücü olarak burada BTS7960 tercih edildi. L298N / L293 vs. motor sürücler kullanılabilir.
-* Direksiyon hareketleri için servo motor kullanıldı. <br>
-* Kamera hareketleri için 2 tane servo motor kullanıldı.
+* This vehicle used one motor for back and forth movement and one motor driver for driving this motor.
+ * The BTS7960 was preferred here as the engine driver. L298N / L293 etc.  Motor drives can be used.
+* A servo motor was used for steering movements. <br>
+* 2 servo motors used for camera movements.
 
-### MALZEME LİSTESİ
-Malzeme Adı| Adet
+### LIST OF MATERIALS
+Product name| Piece
 ----| ---- 
 Raspberry Pi| 1
-Raspberry Pi Camera Modülü| 1
-Wi-Fi Adaptör| 1 (Pi 3 için isteğe bağlı)
-L298N,BTS7960,L293 Motor Sürücü| 1 
+Raspberry Pi Camera Module| 1
+Wi-Fi Adaptör| 1 (Optional for Pi 3)
+L298N,BTS7960,L293 Motor Drive| 1 
 DC MOTOR|  1  
 SERVO MOTOR| 3
-12V Lipo Batarya| 1
-Jumper Kablo | ~
-Araç Şasi (Gövdesi)| 1
-5V Güç Kaynağı  [**(LM2596-ADJ)**](http://www.robotistan.com/mini-ayarlanabilir-3a-voltaj-regulator-karti-lm2596-adj) or [**(2A Mini)**]( http://www.robotistan.com/2a-mini-ayarlanabilir-voltaj-dusurucu-regulator-karti)|1
+12V Lipo Battery| 1
+Jumper Cable | ~
+Vehicle Chassis| 1
+5V Power Supply or Power Bank  [**(LM2596-ADJ)**](http://www.robotistan.com/mini-ayarlanabilir-3a-voltaj-regulator-karti-lm2596-adj) or [**(2A Mini)**]( http://www.robotistan.com/2a-mini-ayarlanabilir-voltaj-dusurucu-regulator-karti)|1
 <br>
 
-## BAĞLANTI ŞEMASI AŞAĞIDAKİ GİBİDİR. <br><br>
+## THE CONNECTION DIAGRAM IS AS FOLLOWS <br><br>
 
-### RASPBERRY Pİ PİN BAĞLANTILARI
-PİN ADI| GPIO NUMARASI (BCM)
+### RASPBERRY PI PIN CONNECTIONS
+PIN NAME| GPIO NUMBERS (BCM)
 ----| ---- 
-DİREKSİYON KONTROL SERVO MOTORU| GPIO 16
-KAMERA DİKEY EKSEN HAREKET SERVO MOTORU| GPIO 15
-KAMERA YATAY EKSEN HAREKET SERVO MOTORU| GPIO 14
-MOTOR SURUCU ICIN RIGHT PWM | GPIO 13
-MOTOR SURUCU ICIN LEFT PWM| GPIO 19
-MOTOR SURUCU ICIN RIGHT ENABLE PIN| GPIO 23
-MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 24
-5V GUC VCC  | 5V INPUT
-5V GUC GND | GND INPUT
+SERVO MOTOR FOR STEERING CONTROL| GPIO 16
+SERVO MOTOR FOR CAMERA VERTICAL AXIS MOVEMENT| GPIO 15
+SERVO MOTOR FOR CAMERA HORIZONTAL AXIS MOVEMENT| GPIO 14
+MOTOR DRIVE FOR RIGHT PWM | GPIO 13
+MOTOR DRIVE FOR LEFT PWM| GPIO 19
+MOTOR DRIVE FOR RIGHT ENABLE PIN| GPIO 23
+MOTOR DRIVE FOR LEFT ENABLE PIN| GPIO 24
+5V POWER VCC  | 5V INPUT
+5V POWER GND | GND INPUT
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/RasPiO-portsplus2-on-pi_1500.jpg)<br><br>
-* Burada dikkat etmeniz gereken nokta 5V güç kaynağı dışında pinleri yanlış taktığınızda araç ta veya kamera da sadece yanlış hareketler söz konusu olur. Ama 5V güç kaynağını ters veya yanlış pinlere taktığınız taktirde raspberry de geri dönüşü olmayan hasarlar meydana gelebilir. Raspberry de pinlerden güç girişine alternatif olarak raspberry pi 'nizi micro usb girişinide kullanarabilirsiniz.(Power bank vs diğer alternatif.)
 
-* **NOT:** Burada unutmamanız gereken tek nokta raspberry pi 'nizi güç girişlerini doğru yapmanız ve RASPBERRY Pİ'NİZİ ve SERVO MOTOR larınızı aynı kaynaktan doğrudan beslememelisiniz. Yani kısaca LM2596 ile ürettiğiniz 5V 'la hem Raspberry pi hemde Servo motorları çalıştırmayınız.
+* **IMPORTANT NOTE 1** Here's what you need to look out for: If you misplug the motor drivers and the camcorder's pins, the car or camera will only have the wrong movements. But if you plug the 5V power supply into the wrong or wrong pins, irreversible damage can occur in the raspberry. Ahududaki iğnelerin güç girişine alternatif olarak, mikro usb girişinizi ahududu pi'de de kullanabilirsiniz(Power bank etc. , Other alternative.)
+
+* **IMPORTANT NOTE 2:** You should not feed your raspberry and servo motors directly from the same power supply. Kısacası, LV2596 ile 5V üretiyorsanız, Ahududanı ve Servo motorları doğrudan çalıştırmamalısınız.
 
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/servolu_pin%20baglantisi.PNG)
 <br><br>
@@ -51,15 +52,16 @@ MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 24
 <br><br>
 
 
-# Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues)
+## Please  [ask!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues) what you do not understand.
+
 
 
 <br><br>
 
-# Araç Tipi 2: TANK Tipi Araç <br><br>
+# Vehicle Type 2: Tank Type Vehicle <br><br>
 
-* Sağ ve sol motor olmak üzere 2 adet yön kontrol motor mantığı vardır. Çalışma şekli tank şeklindedir.
-* Aşağıdaki resimlerden de anlaşılabileceği gibi sağa ve sola dönüşlerde sağ ve sol motorların dönüş hızı farkından faydalanılır.
+* There are 2 direction control motors, right and left engine. The operation is shaped like a tank.
+* As can be seen from the pictures below, the rotation speed difference between the right and left motors is used for right and left turns.
 <br>
 
 
@@ -75,52 +77,53 @@ MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 24
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20151122_142027.jpg)
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/IMG_20151122_141900.jpg)
 
-### MALZEME LİSTESİ
-Malzeme Adı| Adet
+### LIST OF MATERIALS
+Product Name| Piece
 ----| ---- 
 Raspberry Pi| 1
-Raspberry Pi Camera Modülü| 1
-Wi-Fi Adaptör| 1 (Pi 3 için isteğe bağlı)
-L298N,BTS7960,L293 Motor Sürücü| 1 yada 2 
-DC MOTOR|  2 yada 4
+Raspberry Pi Camera Module| 1
+Wi-Fi Adaptor| 1 (Pi 3 için isteğe bağlı)
+L298N,BTS7960,L293 Motor Drive| 1 or 2 
+DC MOTOR|  2 or 4
 SERVO MOTOR| 2
-12V Lipo Batarya| 1
-Jumper Kablo | ~
-Araç Şasi (Gövdesi)| 1
-5V Güç Kaynağı  [**(LM2596-ADJ)**](http://www.robotistan.com/mini-ayarlanabilir-3a-voltaj-regulator-karti-lm2596-adj) or [**(2A Mini)**]( http://www.robotistan.com/2a-mini-ayarlanabilir-voltaj-dusurucu-regulator-karti)|1
+12V Lipo Battery| 1
+Jumper Cable | ~
+Vehicle Chassis | 1
+5V Power Supply  [**(LM2596-ADJ)**](http://www.robotistan.com/mini-ayarlanabilir-3a-voltaj-regulator-karti-lm2596-adj) or [**(2A Mini)**]( http://www.robotistan.com/2a-mini-ayarlanabilir-voltaj-dusurucu-regulator-karti)|1
 <br>
 
-* Bu araçta ileri geri / sağa sola  hareketler için 3/3 toplamda 6 adet motor ve bu motoru sürmek için iki motor sürücü kullanıldı.
- * Motor sürücü olarak burada BTS7960 tercih edildi. L298N / L293 vs. motor sürücler kullanılabilir.
-* Direksiyon hareketleri sag ve sol tarafta bulunan motorların hızları farkından yararlanıldı. <br>
-* Kamera hareketleri için 2 tane servo motor kullanıldı.
+* This vehicle used 6  (3/3) motors in total for moving back and forth / right and left and two motor drives for driving this motor.
+ * The BTS7960 was preferred here as the engine driver. L298N / L293 etc.  Motor drives can be used.
+* The difference in rotation speeds of the right and left side motors was used for steering movements. <br>
+* Two servo motors were used for camera movements.
 
 
-## BAĞLANTI ŞEMASI AŞAĞIDAKİ GİBİDİR. <br><br>
+## THE CONNECTION DIAGRAM IS AS FOLLOWS <br><br>
 
-### RASPBERRY Pİ PİN BAĞLANTILARI
-PİN ADI| GPIO NUMARASI (BCM)
+### RASPBERRY PI PIN CONNECTIONS
+PIN NAME| GPIO NUMBERS (BCM)
 ----| ---- 
-KAMERA DİKEY EKSEN HAREKET SERVO MOTORU| GPIO 15
-KAMERA YATAY EKSEN HAREKET SERVO MOTORU| GPIO 14
-SAG MOTOR SURUCU ICIN RIGHT PWM | GPIO 13
-SAG MOTOR SURUCU ICIN LEFT PWM| GPIO 19
-SOL MOTOR SURUCU ICIN RIGHT PWM | GPIO 18
-SOL MOTOR SURUCU ICIN LEFT PWM| GPIO 12
-MOTOR SURUCU ICIN RIGHT ENABLE PIN| GPIO 23
-MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 24
-MOTOR SURUCU ICIN RIGHT ENABLE PIN| GPIO 20
-MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 21
-5V GUC VCC  | 5V INPUT
-5V GUC GND | GND INPUT
+SERVO MOTOR FOR CAMERA VERTICAL AXIS MOVEMENT| GPIO 15
+SERVO MOTOR FOR CAMERA HORIZONTAL AXIS MOVEMENT| GPIO 14
+RIGHT MOTOR DRIVE FOR RIGHT PWM | GPIO 13
+RIGHT MOTOR DRIVE FOR LEFT PWM| GPIO 19
+LEFT MOTOR DRIVE FOR RIGHT PWM | GPIO 18
+LEFT MOTOR DRIVE FOR LEFT PWM| GPIO 12
+MOTOR DRIVE FOR RIGHT ENABLE PIN| GPIO 23
+MOTOR DRIVE FOR LEFT ENABLE PIN| GPIO 24
+MOTOR DRIVE FOR RIGHT ENABLE PIN| GPIO 20
+MOTOR DRIVE FOR LEFT ENABLE PIN| GPIO 21
+5V POWER VCC  | 5V INPUT
+5V POWER GND | GND INPUT
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/RasPiO-portsplus2-on-pi_1500.jpg)<br><br>
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/pi_tank_pin%20baglantisi.PNG)
 
 <br><br>
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/pin%20baglantisi_tank_schematik.PNG)
 <br><br>
-* Burada dikkat etmeniz gereken nokta; 5V güç kaynağı dışında pinleri yanlış taktığınızda araç ta veya kamera da sadece yanlış hareketler söz konusu olur. Ama 5V güç kaynağını ters veya yanlış pinlere taktığınız taktirde raspberry de geri dönüşü olmayan hasarlar meydana gelebilir. Raspberry de pinlerden güç girişine alternatif olarak raspberry pi 'nizi micro usb girişinide kullanarabilirsiniz.(Power bank vs diğer alternatif.)
+* **IMPORTANT NOTE 1** Here's what you need to look out for: If you misplug the motor drivers and the camcorder's pins, the car or camera will only have the wrong movements. But if you plug the 5V power supply into the wrong or wrong pins, irreversible damage can occur in the raspberry. Ahududaki iğnelerin güç girişine alternatif olarak, mikro usb girişinizi ahududu pi'de de kullanabilirsiniz(Power bank etc. , Other alternative.)
 
-* **NOT:** Burada unutmamanız gereken tek nokta raspberry pi 'nizi güç girişlerini doğru yapmanız ve RASPBERRY Pİ'NİZİ ve SERVO MOTOR larınızı aynı kaynaktan doğrudan beslememelisiniz. Yani kısaca LM2596 ile ürettiğiniz 5V 'la hem Raspberry pi hemde Servo motorları çalıştırmayınız.
+* **IMPORTANT NOTE 2:** You should not feed your raspberry and servo motors directly from the same power supply. Kısacası, LV2596 ile 5V üretiyorsanız, Ahududanı ve Servo motorları doğrudan çalıştırmamalısınız.
+
 <br><br>
-# Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues)
+## Please  [ask!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues) what you do not understand.
