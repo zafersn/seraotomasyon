@@ -46,9 +46,9 @@ MOTOR DRIVE FOR LEFT ENABLE PIN| GPIO 24
 
 * **IMPORTANT NOTE 2:** You should not feed your raspberry and servo motors directly from the same power supply. Kısacası, LV2596 ile 5V üretiyorsanız, Ahududanı ve Servo motorları doğrudan çalıştırmamalısınız.
 
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/servolu_pin%20baglantisi.PNG)
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/pin_baglanti%20servo_en.PNG)
 <br><br>
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/sevolu_pinbaglantisi_schematic.PNG)
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/pin_baglanti_servo_schmatic_en.PNG)
 <br><br>
 
 
@@ -115,11 +115,11 @@ MOTOR DRIVE FOR RIGHT ENABLE PIN| GPIO 20
 MOTOR DRIVE FOR LEFT ENABLE PIN| GPIO 21
 5V POWER VCC  | 5V INPUT
 5V POWER GND | GND INPUT
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/RasPiO-portsplus2-on-pi_1500.jpg)<br><br>
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/pin_baglanti_tank_en.PNG)<br><br>
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/pi_tank_pin%20baglantisi.PNG)
 
 <br><br>
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/pin%20baglantisi_tank_schematik.PNG)
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/pin_baglanti_tank_sematik_en.PNG)
 <br><br>
 * **IMPORTANT NOTE 1** Here's what you need to look out for: If you misplug the motor drivers and the camcorder's pins, the car or camera will only have the wrong movements. But if you plug the 5V power supply into the wrong or wrong pins, irreversible damage can occur in the raspberry. Ahududaki iğnelerin güç girişine alternatif olarak, mikro usb girişinizi ahududu pi'de de kullanabilirsiniz(Power bank etc. , Other alternative.)
 
