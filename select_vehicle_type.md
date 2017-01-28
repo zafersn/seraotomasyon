@@ -43,14 +43,14 @@ MOTOR SURUCU ICIN RIGHT ENABLE PIN| GPIO 20
 MOTOR SURUCU ICIN LEFT ENABLE PIN| GPIO 21
 5V GUC VCC  | 5V INPUT
 5V GUC GND | GND INPUT
-
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/RasPiO-portsplus2-on-pi_1500.jpg)<br><br>
 * Burada dikkat etmeniz gereken nokta 5V güç kaynağı dışında pinleri yanlış taktığınızda araç ta veya kamera da sadece yanlış hareketler söz konusu olur. Ama 5V güç kaynağını ters veya yanlış pinlere taktığınız taktirde raspberry de geri dönüşü olmayan hasarlar meydana gelebilir. Raspberry de pinlerden güç girişine alternatif olarak raspberry pi 'nizi micro usb girişinide kullanarabilirsiniz.(Power bank vs diğer alternatif.)
 
 * **NOT:** Burada unutmamanız gereken tek nokta raspberry pi 'nizi güç girişlerini doğru yapmanız ve RASPBERRY Pİ'NİZİ ve SERVO MOTOR larınızı aynı kaynaktan doğrudan beslememelisiniz. Yani kısaca LM2676 ile ürettiğiniz 5V 'la hem Raspberry pi hemde Servo motorları çalıştırmayınız.
 
 
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/DEVRE%20semasi%20.PNG)<br><br>
-![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/devre%20sematic.PNG)<br><br>
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/raspberry%20pi%20pin%20baglantisi%C4%B1.PNG)<br><br>
+![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/raspber%20pin%20bag%20schematik.PNG)<br><br>
 
 
 # Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues)
