@@ -211,7 +211,7 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 
 Araçın ve kameranın kontrolünün sağlandığı 2 adet joystick kontrol arayüzü mevcuttur. Bu arayüzlerden soldaki araç'ın yön kontrolünü, sağdaki ise araç üzerindeki kamera' nın yön kontrolünü sağlamaktadır.<br>
   Joystick kontrol arayüzünde dikkat edilmesi gerekli nokta,maksimum hız ayarıdır.\n Burada maksimum hız ayarı, aracın maksimum çıkabileceği hızını belirtmektedir, kamera hızı sabit olarak ayarlanmıştır.Maksimum hız ayarını belirlerken raspberry pi' nin ürettiği pwm aralığı göz önüne alınmıştır. <b> Bu aralık 0-100 'dür</b>.
-    Yani araç için belirleyeceğiniz maksimum hız aralığı <b> 0-100 </b> arasında olmalıdır.
+    The maximum speed range you will set for the vehicle should be between <b>0-100</b>
     
 # Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues) 
  <br>
@@ -221,9 +221,9 @@ Araçın ve kameranın kontrolünün sağlandığı 2 adet joystick kontrol aray
 <br> <br>
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Screenshot_20170122-205445.png)
 <br>
-VR Arayüzünde dikkat etminiz gereken nokta, cihazın sensorlerinin kalibrasyonudur.Uygulamada 2 türlü sensor kalibrasyon yapılmaktadır. 
+VR Arayüzünde dikkat etmeniz gereken nokta, cihazın sensorlerinin kalibrasyonludur. Uygulamada 2 türlü sensor kalibrasyon yapılmaktadır. 
 * **1. kalibrasyon;** uygulamanın otomatik gerçekleştirdiği, magnometre ve gyroscope verilerinin filtre edilerek yeryüzü çoğrafyasına göre referans bir değer alınarak yapılan kalibrasyon yöntemidir.
-* **2. kalibrasyon;** Bizim elle yapmamız gereken kalibrasyondur. Başımızı(Kafamızı) referans (istediğimiz noktaya) noktasına getirdikten sonra menu çubuğundan pusula iconuna tıklamamız gerekmektedir. Bu kalibrasyon bizim kafamızın yeryüzüne göre(Kalibrasyon 1'e göre) orjinini(merkez noktasını) belirtmektedir. Bu 2. kalibrasyondan sonra kafanızı nereye çevirirseniz araç kamerası o noktaya doğru hareket edecektir.
+* **2. kalibrasyon;** Bizim elle yapmamız gereken kalibrasyondur. Başımızı(Kafamızı) referans (istediğimiz noktaya) noktasına getirdikten sonra menu çubuğundan pusula ikonuna tıklamamız gerekmektedir. Bu kalibrasyon bizim kafamızın yeryüzüne göre(Kalibrasyon 1'e göre) orjinini(merkez noktasını) belirtmektedir. Bu 2. kalibrasyondan sonra kafanızı nereye çevirirseniz araç kamerası o noktaya doğru hareket edecektir.
 * **NOT:** VR modu seçildiğinde aracın hareket kontrolü için 2. bir cihaza ihtiyaç duyulmaktadır. Buda yine aynı şekilde isteğe bağlı olarak ikinci bir android telefon üzerinden diğer kontrol arayüzleri kullanarak kontrol edebileceğiniz gibi Windows üzerinde geliştirdiğimiz uygulamamız ile de Fly Joystick ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/Retro-Games32x32.png)  yardımı ile gerçekleştirilebilmektedir.<br>
     <br><br>
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/vr_aciklama.png)<br>   
@@ -255,7 +255,7 @@ Pi_CAR windows uygulamasında camera desteği yoktur. Kamera görüntüsünü ol
 ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/windows_aciklama.png)<br><br>
 
 # ÖNEMLİ NOT:
-**Bu windows uygulamasının asıl amacı Andorid üzerinde VR kontrol arayüzünün kullanılması sırasında android uygulamaya alternatif olarak aracın hareket ettirilmesini sağlamaktır.**
+**Bu windows uygulamasının asıl amacı Android üzerinde VR kontrol arayüzünün kullanılması sırasında android uygulamaya alternatif olarak aracın hareket ettirilmesini sağlamaktır.**
 
 
 
@@ -301,8 +301,7 @@ telefonunuza  yükleyiniz.
 </p>
 
 ## **ADIM 4** 
-Windows kontrol yazılımıda  Bu [**linteken**](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght) indirerek
-bilgisayarınıza indiriniz ve yükleyiniz.
+Windows kontrol yazılımınıda  Bu [**linkten**](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght) bilgisayarınıza indiriniz ve yükleyiniz.
 
 <p align="center">
  <a href="https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght"><img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/windows_pi_cart.png"/></a>
