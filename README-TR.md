@@ -211,7 +211,7 @@ Uygulamanın çalışma prensibini ve tanıtımını kısaca açıklayalım.
 
 Araçın ve kameranın kontrolünün sağlandığı 2 adet joystick kontrol arayüzü mevcuttur. Bu arayüzlerden soldaki araç'ın yön kontrolünü, sağdaki ise araç üzerindeki kamera' nın yön kontrolünü sağlamaktadır.<br>
   Joystick kontrol arayüzünde dikkat edilmesi gerekli nokta,maksimum hız ayarıdır.\n Burada maksimum hız ayarı, aracın maksimum çıkabileceği hızını belirtmektedir, kamera hızı sabit olarak ayarlanmıştır.Maksimum hız ayarını belirlerken raspberry pi' nin ürettiği pwm aralığı göz önüne alınmıştır. <b> Bu aralık 0-100 'dür</b>.
-    The maximum speed range you will set for the vehicle should be between <b>0-100</b>
+  Yani araç için ayarlayacağınız maksimum hız aralığı 0-100 arasında olmalıdır
     
 # Proje anlatımında anlaşılmayan bir konu, öneriniz ve ya istekleriniz için lütfen [SORUNUZ!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/issues) 
  <br>
