@@ -29,8 +29,7 @@ Vehicle Chassis| 1
 5V Power Supply [**(LM2596-ADJ)**](http://www.robotistan.com/mini-ayarlanabilir-3a-voltaj-regulator-karti-lm2596-adj) or [**(2A Mini)**]( http://www.robotistan.com/2a-mini-ayarlanabilir-voltaj-dusurucu-regulator-karti) |1
 <br>
 
-## ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/pibackground32x32.png)
- RASPBERRY PI:
+## ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/pibackground32x32.png) RASPBERRY PI:
 ### PURPOSE AND MISSIONS:
 
 * We can take a view  with  using the Raspberry pi camera module and transfer it to the phone via raspberry pi.
