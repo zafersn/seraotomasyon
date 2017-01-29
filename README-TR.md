@@ -28,7 +28,7 @@ Araç Şasi (Gövdesi)| 1
 5V Güç Kaynağı [**(LM2596-ADJ)**](http://www.robotistan.com/mini-ayarlanabilir-3a-voltaj-regulator-karti-lm2596-adj) ya da [**(2A Mini)**]( http://www.robotistan.com/2a-mini-ayarlanabilir-voltaj-dusurucu-regulator-karti)|1
 <br>
 
-## RASPBERRY PI:
+## ![Screen Shot](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V3Images/images/pibackground32x32.png)  RASPBERRY PI:
 ### AMAÇ VE GÖREVLER:
 
 * Raspberry pi kamera modülü kullanarak görüntünün alınması ve raspberry pi üzerinden telefona aktarılması.
