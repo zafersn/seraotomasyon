@@ -263,7 +263,7 @@ Let's briefly explain the working principle and the introduction of the applicat
 <br><br>
 #<p align="center"> <b>BRIEF AND ABSTRACT INSTALLATION</b></p>
 <br><br>
-<p align="center"> <b>FOR DETAIL INFORMATION AND INISTALLATION, PLEASE START AT THE TOP OF THE PAGE.!!</b>
+<p align="center"> <b>FOR DETAILED  INFORMATION AND INISTALLATION, PLEASE START AT THE TOP OF THE PAGE.!!</b>
 <img src="https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/V2Images//images/raw.gif" alt="DETAYLI ANLATIM VE KURULUM" align="middle" />
 </p>
 
