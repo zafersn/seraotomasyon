@@ -22,6 +22,7 @@ Raspberry Pi Camera Module| 1
 Wi-Fi Adaptör| 1 (Optional for Pi 3)
 L298N,BTS7960,L293,ESC Motor Drive| 1 or 2 
 DC MOTOR|  2  or   4
+Servo Motor | 2 or 3
 12V Lipo Batarya| 1
 Jumper kablo | ~
 Vehicle Chassis| 1
