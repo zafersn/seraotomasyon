@@ -48,7 +48,7 @@ We have 2 alternative methods for Raspberry pi 3;<br>
 2. Using an external USB Wifi adapter.(It is the recommended method for distance and data speed. Of course this will vary depending on the Wi-Fi adapter you use.)
 <br>
 
-### 1.If you want to manage Pi_CAR via Raspberry pi 2 or  the built-in Wi-Fi module on the Raspberry Pi 3.Download the operating system on [**this link**](https://drive.google.com/open?id=0B6yjwSAqPTgfdEV1eTlfZ0lVbW8)  and print to the SD card.
+### 1.If you want to manage Pi_CAR via Raspberry pi 2 or  the built-in Wi-Fi module on the Raspberry Pi 3.Download the operating system on [**this link**](https://drive.google.com/open?id=0B6yjwSAqPTgfcHRRLXYwMHZ6RWs)  and print to the SD card.
 
 
 
