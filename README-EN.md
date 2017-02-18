@@ -52,7 +52,6 @@ We have 2 alternative methods for Raspberry pi 3;<br>
 
 
 
-### 2.If you want to manage Pi_CAR by using Wi-Fi module externally mounted on raspberry pi 3. Download the operating system on [**this link**](https://drive.google.com/open?id=0B6yjwSAqPTgfR3lKQVl5SXRpbFE)  and print to the SD card.
 
 
 For this option, we have avaible and tested wifi devices and chipsets.
@@ -269,14 +268,12 @@ Let's briefly explain the working principle and the introduction of the applicat
 
 
 ## **STEP 1:**
-* 1.If you want to manage Pi_CAR via Raspberry pi 2 or  the built-in Wi-Fi module on the Raspberry Pi 3.Download the operating system on [**this link**](https://drive.google.com/open?id=0B6yjwSAqPTgfdEV1eTlfZ0lVbW8)  and print to the SD card.
+* 1.If you want to manage Pi_CAR via Raspberry pi 2 or  the built-in Wi-Fi module on the Raspberry Pi 3.Download the operating system on [**this link**](https://drive.google.com/open?id=0B6yjwSAqPTgfcHRRLXYwMHZ6RWs)  and print to the SD card.
 <br>
 
-* 2.If you want to manage Pi_CAR by using Wi-Fi module externally mounted on raspberry pi 3. Download the operating system on [**this link**](https://drive.google.com/open?id=0B6yjwSAqPTgfR3lKQVl5SXRpbFE)  and print to the SD card.
-<br>
 
 ## **STEP 2**
-* [Click!](https://github.com/zafersn/seraotomasyon/blob/master/select_vehicle_type.md) on the sample vehicle selection and the appropriate pin connection of the vehicle. 
+* [Click!](https://github.com/zafersn/WiFi-RC-Controller-With-Camera/blob/master/ENGLISH/V3/select_Vehicle_en.md) on the sample vehicle selection and the appropriate pin connection of the vehicle. 
 
 ## **STEP 3**
 * Download the Android control software from this  [**link**](https://play.google.com/store/apps/details?id=com.stackcuriosity.tooght) and upload to Android Phone. 
